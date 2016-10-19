@@ -1,0 +1,205 @@
+
+///////////////////
+// global styles
+//////////////////
+
+html {
+  font-size: 100%;
+  line-height: 1.5em;
+}
+
+body {
+  color: $black;
+}
+
+p {
+  font-family: $secondary-font;
+  @include adjust-font-size-to($primary-font-size);
+}
+
+a {
+  color: $black;
+}
+
+hr {
+  border-bottom: 1px solid $white;
+}
+
+h1,
+h2, 
+h3,
+h4 {
+  font-family: $primary-font;
+  font-weight:  700;
+}
+
+h1 {
+  color: $black;
+  letter-spacing: 2px;
+  @include adjust-font-size-to($secondary-font-size); // 3.375 * 16px = 54px
+  @media only screen and (min-width: $medium-query) {
+    @include adjust-font-size-to($primary-heading); // 4.625em * 16px = 74px
+  }
+}
+
+h2 {
+  @include adjust-font-size-to($third-font-size);
+  margin-top: $margin * 18;
+  @media only screen and (min-width: $medium-query) {
+    @include adjust-font-size-to($secondary-font-size);
+    margin-top: $margin * 24;
+  }
+}
+
+h3 {
+  color: $white;
+  font-size: $fourth-font-size;
+  @media only screen and (min-width: $large-query) {
+    font-size: $third-font-size;
+  }
+}
+
+h4 {
+  padding-bottom: $padding * 8;
+}
+
+span {
+  text-transform: lowercase;
+  display: inline-block;
+  margin-top: $margin * 4;
+  font-family: $secondary-font;
+}
+
+li {
+  font-family: $secondary-font;
+}
+
+/////////////////
+// navigation
+////////////////
+
+.menu {
+  li {
+    a {
+      font-family: $secondary-font;
+      @include lowercase;
+    }
+  }
+}
+
+.menu,
+.main-footer {
+  a {
+    display: inline-block;
+    @include transition(.2s);
+    @include transition-timing-function(ease-in-out);
+    &:hover {
+      @include transform(scale(1.12));
+    }
+    &:active,
+    &:focus,
+    &:hover {
+      color: $gold;
+    }
+  }
+}
+
+
+///////////////////////
+// .web + .design
+//////////////////////
+
+.web,
+.design {
+  p {
+    margin-bottom: $margin * 8;
+  }
+  p,
+  a {
+    color: $white;
+  }
+  a {
+    @include transition(.2s);
+    @include transition-timing-function(ease-in-out);
+    &:hover {
+      color: $gold;
+      @include transform(scale(1.12));
+    }
+    &:active,
+    &:focus {
+      color: $gold;
+    }
+  }
+}
+
+///////////////////
+//.main-about
+//////////////////
+.main-about,
+#contact {
+  .columns {
+    padding: 0;
+  }
+  p {
+    padding-bottom: $padding * 8;
+    @media only screen and (min-width: $medium-query) {
+      margin-top: $margin * -8;
+    }
+  }
+  a {
+    color: $black;
+    display: inline-block;
+    font-family: $secondary-font;
+    font-size: $fourth-font-size;
+    font-weight: 700;
+    margin-bottom: $margin * 12;
+    @include lowercase;
+    @include transition(.2s);
+    @include transition-timing-function(ease-in-out);
+    &:hover {
+      color: $gold;
+      @include transform(scale(1.12));
+    }
+  }
+}
+
+/////////////////////
+// #contact
+////////////////////
+
+#contact {
+  a {
+    color: $black;
+  }
+  .contact-bg {
+    p {
+      color: $white;
+    }
+  }
+}
+
+///////////////////
+//.main-footer
+//////////////////
+.main-footer {
+  p {
+    padding-bottom: $padding * 4;
+  }
+  .social-media {
+    li {
+      font-size: $primary-font-size * 1.25;
+      a {
+        color: $white; 
+        &:hover {
+          color: $gold;
+        }
+      }
+    }
+  }
+  .fa-angle-up {
+    color: $white;
+    font-size: $third-font-size;
+    margin-bottom: $margin * 6;
+    padding: $padding * 4;
+  }
+}

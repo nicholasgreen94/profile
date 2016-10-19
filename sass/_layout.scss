@@ -1,0 +1,154 @@
+
+.no-js .main-nav {
+  display: none;
+}
+
+@media screen and (min-width: $medium-query) {
+  .no-js .main-nav{
+    display: block;
+  }
+
+  .no-js .title-bar {
+    display: none;
+  }
+}
+
+
+///////////////////
+//  .main-nav
+//////////////////
+.title-bar,
+.main-nav {
+  background: transparent;
+}
+
+
+.menu-icon {
+  box-shadow: 0 7px 0 $white,0 14px 0 $white;
+  &:after {
+    background: $black;
+    box-shadow: 0 7px 0 $black, 0 14px 0 $black;
+  }
+}
+
+.top-logo {
+  position: relative;
+  top: -24px;
+}
+
+
+///////////////////
+//  .hero
+//////////////////
+.hero {
+  padding: $padding * 72 0 $padding * 84;
+  @media only screen and (min-width: $medium-query) {
+    padding: $padding * 78 0;
+  }
+}
+
+////////////////////
+//  .main-work
+///////////////////
+
+.main-work {
+  margin: $margin * 39 0;
+  .columns {
+    padding: 0;
+  }
+  .web,
+  .design {
+    padding: $padding * 32 0 $padding * 8;
+    @media only screen and (min-width: $medium-query) {
+      padding: $padding * 48 0 $padding * 16;
+    }
+    @media only screen and (min-width: $large-query) {
+      padding: $padding * 84 0 $padding * 56;
+    }
+  }
+  .web {
+    @include background($black-overlay, image-url("https://hd.unsplash.com/photo-1449484956348-51e3a55fd0ab"), $black);
+    @include background-basics; 
+    border-bottom: 5px solid $white;
+    @media only screen and (min-width: $medium-query) {
+      border-right: 2.5px solid $white;
+    }
+    @media only screen and (min-width: $large-query) {
+      border-right: 5px solid $white;
+    }
+  }
+  .design {
+    @include background($black-overlay, image-url("https://hd.unsplash.com/photo-1466786784937-3e682c802b14"), $black);
+    @include background-basics;
+  }
+}
+ 
+/////////////////////
+//  .main-about 
+////////////////////
+
+.main-about {
+  color: $black;
+  .my-about-pic {
+    margin-top: $margin * -5;
+    @include background($black-overlay, image-url("my-image.jpg"), $black);
+    @include background-basics;
+    background-position: 50% 5%;
+  }
+}
+
+//////////////////////////////////////
+// .web-work + .design-work
+//////////////////////////////////////
+
+.aerom {
+  @include background($black-overlay, image-url("notebook.jpg"), $black);
+  @include background-basics;
+  border-right: 5px solid $white;
+  padding: $padding * 56 0;
+}
+ 
+//////////////////////
+// #contact
+/////////////////////
+
+#contact {
+  padding-bottom: $padding * 28;
+  .contact-bg {
+    margin-top: $margin * -5;
+    @include background($black-overlay, image-url("https://hd.unsplash.com/photo-1423784346385-c1d4dac9893a"), $black);
+    @include background-basics;
+  }
+}
+ 
+////////////////////
+// .main-footer 
+///////////////////
+
+.main-footer {
+  background: $black;
+  color: $white;
+  margin-top: $margin * 24;
+  @media only screen and (min-width: $medium-query) {
+    margin-top: $margin * 48;
+  }
+  .footer-logo {
+    height: 56px;
+    position: relative;
+    top: -28px;
+    @media only screen and (min-width: $medium-query) {
+      height: 72px;
+      top: -36px;
+    }
+  }
+  .social-media {
+    li {
+      display: inline-block;
+    }
+    a {
+      margin: 0 $margin * 1;
+      padding: $padding * 4;
+    }
+  }
+}
+

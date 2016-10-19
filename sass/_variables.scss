@@ -1,0 +1,37 @@
+
+// Colors
+$black: darken(#615656, 5%);
+$white: #fff;
+$gold: #d19537;
+$red: #fb1717;
+
+
+// Overlays 
+$black-overlay: linear-gradient(rgba(97,86,86,.55), rgba(97,86,86,.55));
+
+// Including the Butler & Kano font
+@include font-face("Butler", "css/fonts/Butler_Regular.otf");
+@include font-face("Butler", "css/fonts/Butler_Bold.otf");
+@include font-face("Kano", "css/fonts/Kano.otf");
+
+// Fonts 
+$primary-font: "Butler", Georgia, Times, serif;
+$secondary-font: "Kano", Helvetica, verdana, sans-serif;
+
+// Font sizes 
+$primary-heading: 4.625em;
+$secondary-font-size: 3.375em;
+$third-font-size: 2.25em;
+$fourth-font-size: 20px;
+$primary-font-size: 16px;
+$small-font-size: 0.754em;
+
+// Padding & Margin 
+$margin: 2px;
+$padding: 2px;
+
+// Media Query Sizes
+$small-query: 39.9375em;
+$medium-query: 40em;
+$large-query: 64em;
+$xl-query: 74.9375em;

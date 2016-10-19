@@ -1,0 +1,10 @@
+
+.btn {
+  display: inline-block;
+  font-family: $secondary-font;
+  font-size: $fourth-font-size;
+  font-weight: 700;
+  letter-spacing: 1px;
+  padding: $padding * 5;
+  @include lowercase;
+}
