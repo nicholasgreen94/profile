@@ -3,11 +3,6 @@
 // global styles
 //////////////////
 
-html {
-  font-size: 100%;
-  line-height: 1.5em;
-}
-
 body {
   color: $black;
 }
@@ -34,8 +29,9 @@ h4 {
 }
 
 h1 {
-  color: $black;
-  letter-spacing: 2px;
+  font-weight: 700;
+  line-height: 1em;
+  padding-top: .5em;
   @include adjust-font-size-to($secondary-font-size); // 3.375 * 16px = 54px
   @media only screen and (min-width: $medium-query) {
     @include adjust-font-size-to($primary-heading); // 4.625em * 16px = 74px
@@ -44,10 +40,8 @@ h1 {
 
 h2 {
   @include adjust-font-size-to($third-font-size);
-  margin-top: $margin * 18;
   @media only screen and (min-width: $medium-query) {
     @include adjust-font-size-to($secondary-font-size);
-    margin-top: $margin * 24;
   }
 }
 
@@ -60,15 +54,9 @@ h3 {
 }
 
 h4 {
-  padding-bottom: $padding * 8;
+  font-size: $fourth-font-size;
 }
 
-span {
-  text-transform: lowercase;
-  display: inline-block;
-  margin-top: $margin * 4;
-  font-family: $secondary-font;
-}
 
 li {
   font-family: $secondary-font;
@@ -78,23 +66,44 @@ li {
 // navigation
 ////////////////
 
+.main-nav {
+  text-align: right; 
+}
+
 .menu {
+  text-align: center;
+  @media only screen and (min-width: $medium-query) {
+    text-align: left;
+  }
   li {
+    display: inline-block;
+    margin: .25em;
     a {
-      font-family: $secondary-font;
       @include lowercase;
+      font-family: $secondary-font;
+      padding: .5em;
+      @media only screen and (min-width: $medium-query) {
+      padding: .5em;
+      }
+    }
+  }
+  @media only screen and (min-width: $large-query) {
+    .first-nav-item {
+      margin-left: 0;
+      padding-left: 0;
     }
   }
 }
 
 .menu,
-.main-footer {
+#contact {
   a {
     display: inline-block;
     @include transition(.2s);
     @include transition-timing-function(ease-in-out);
     &:hover {
       @include transform(scale(1.12));
+      color: $gold;
     }
     &:active,
     &:focus,
@@ -104,6 +113,63 @@ li {
   }
 }
 
+.hero {
+  span {
+    display: inline-block;
+    font-family: $primary-font;
+    font-size: $fourth-font-size;
+    @media only screen and (min-width: $medium-query) {
+      font-size: $third-font-size;
+      line-height: .9;
+      .left-indent {
+        text-indent: .5em;
+      }
+    }
+  }
+}
+
+
+///////////////////
+//.main-about
+//////////////////
+
+.main-about,
+#contact {
+  .columns {
+    padding: 0;
+  }
+  h2 {
+    padding: .75em 0 .15em;
+  }
+  p {
+    margin-bottom: $margin * 12;
+  }
+  a {
+    color: $white;
+    display: inline-block;
+    font-family: $secondary-font;
+    font-size: $fourth-font-size;
+    font-weight: 700;
+    margin-bottom: $margin * 12;
+    text-transform: uppercase;
+    @include transition(.2s);
+    @include transition-timing-function(ease-in-out);
+    @media only screen and (min-width: $large-query) {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.created {
+  font-weight: 700;
+  text-transform: none;
+}
+
+.services {
+  h2 {
+    padding: .5em 0;
+  }
+}
 
 ///////////////////////
 // .web + .design
@@ -132,33 +198,18 @@ li {
   }
 }
 
-///////////////////
-//.main-about
-//////////////////
-.main-about,
-#contact {
-  .columns {
-    padding: 0;
-  }
-  p {
-    padding-bottom: $padding * 8;
-    @media only screen and (min-width: $medium-query) {
-      margin-top: $margin * -8;
-    }
-  }
-  a {
-    color: $black;
-    display: inline-block;
-    font-family: $secondary-font;
-    font-size: $fourth-font-size;
-    font-weight: 700;
-    margin-bottom: $margin * 12;
-    @include lowercase;
-    @include transition(.2s);
-    @include transition-timing-function(ease-in-out);
-    &:hover {
-      color: $gold;
-      @include transform(scale(1.12));
+//////////////////////////////////////
+// .web-work + .design-work
+/////////////////////////////////////
+
+.web-work,
+.design-work {
+  .preview {
+    h3 {
+      @extend h3;
+      @media only screen and (min-width: $medium-query) {
+        font-size: $third-font-size;
+      }
     }
   }
 }

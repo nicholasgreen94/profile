@@ -6,10 +6,12 @@
       <div class="social-media">
         <h4>Social Media</h4>
         <ul>
-          <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-          <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-          <li><a href="#"><i class="fa fa-github" aria-hidden="true"></i></a></li>
-          <li><a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a></li>
+          <li>
+            <a href="#">Instagram</a> &bullet; <a href="#">Twitter</a>
+          </li>
+          <br />
+          <li><a href="#">Github</a> &bullet; <a href="#">Behance</a>
+          </li>
         </ul>
       </div>
       <div class="small-offset-1 small-10">

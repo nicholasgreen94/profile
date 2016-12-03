@@ -1,28 +1,31 @@
 
 // Colors
-$black: darken(#615656, 5%);
+$black: #413b3b;
 $white: #fff;
 $gold: #d19537;
-$red: #fb1717;
 
 
 // Overlays 
-$black-overlay: linear-gradient(rgba(97,86,86,.55), rgba(97,86,86,.55));
+$black-overlay: linear-gradient(rgba(97,86,86,.45), rgba(97,86,86,.45));
+$light-overlay: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3));
+$gold-overlay: linear-gradient(rgba(209, 149, 55, .45), rgba(209, 149, 55, .45));
 
 // Including the Butler & Kano font
 @include font-face("Butler", "css/fonts/Butler_Regular.otf");
 @include font-face("Butler", "css/fonts/Butler_Bold.otf");
 @include font-face("Kano", "css/fonts/Kano.otf");
+@include font-face("outlined-iconset", "css/fonts/outlined-iconset.ttf");
+@include font-face("ElegantLux-Mager", "css/fonts/ElegantLux-Mager.otf");
 
 // Fonts 
-$primary-font: "Butler", Georgia, Times, serif;
-$secondary-font: "Kano", Helvetica, verdana, sans-serif;
+$primary-font: "acta-display", "Butler", Georgia, Times, serif;
+$secondary-font: "Butler", Helvetica, verdana, sans-serif;
 
 // Font sizes 
-$primary-heading: 4.625em;
+$primary-heading: 5.625em;
 $secondary-font-size: 3.375em;
 $third-font-size: 2.25em;
-$fourth-font-size: 20px;
+$fourth-font-size: 1.25em;
 $primary-font-size: 16px;
 $small-font-size: 0.754em;
 

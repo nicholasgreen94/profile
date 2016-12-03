@@ -1,0 +1,73 @@
+
+[data-icon]:before {
+  font-family: "outlined-iconset" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "outlined-iconset" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-agenda:before {
+  content: "\e086";
+}
+
+.icon-tv-monitor:before {
+  content: "\e074";
+}
+
+.icon-portable-pc:before {
+  content: "\e054";
+}
+
+.icon-mail:before {
+  content: "\e038";
+}
+
+.icon-paper-pen:before {
+  content: "\e04d";
+}
+
+.icon-pen-pencil-ruler:before {
+  content: "\e050";
+}
+
+.icon-website-1:before {
+  content: "\e07f";
+}
+.icon-website-2:before {
+  content: "\e080";
+}
+
+.icon-pencil-ruler:before {
+  content: "\e052";
+}
+
+.icon {
+  color: $gold;
+  height: 4rem;
+  font-size: $secondary-font-size;
+}
+
+.icon-mail {
+  font-size: $fourth-font-size;
+  position: relative;
+  top: 5px;
+}

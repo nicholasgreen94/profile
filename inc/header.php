@@ -14,22 +14,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title><?php echo $page_title; ?></title>
     <!-- CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+    <script src="https://use.typekit.net/phl2bvx.js"></script>
+    <script>try{Typekit.load({ async: true });}catch(e){}</script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/foundation/6.2.3/foundation.min.css">
     <link rel="stylesheet" href="css/screen.css">
   </head>
   <body>
     <div class="row" id="top">
-      <header class="main-header">
+      <header class="main-header small-offset-0 medium-offset-1 large-offset-0">
         <div class="title-bar" data-responsive-toggle="navigation" data-hide-for="medium">
           <button class="menu-icon" type="button" data-toggle></button>
           <div class="menu-centered">
-            <a href="#"><img alt="A logo a square with an N inside it" class="title-bar-title logo top-logo" src="img/logo.svg"></a>
+            <a class="title-bar-title logo top-logo" href="#">NG</a>
           </div>
         </div>
-        <nav class="main-nav" id="navigation">
-          <ul class="dropdown menu float-right" data-dropdown-menu>
-            <li><a href="index.php">Home</a></li>
+        <nav class="main-nav top-bar-left" id="navigation">
+          <ul class="dropdown menu " data-dropdown-menu>
+            <li class="first-nav-item"><a class="first-nav-item" href="index.php">Home</a></li>
             <li><a href="web.php">Web</a></li>
             <li><a href="design.php">Design</a></li>
             <li><a href="#contact">Contact</a></li>

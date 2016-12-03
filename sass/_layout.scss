@@ -13,6 +13,19 @@
   }
 }
 
+body {
+  background: $white;
+  font-size: $primary-font-size;
+  line-height: 1.4;
+  overflow-x: hidden;
+  overflow-y:  scroll;
+}
+
+.row {
+  @media only screen and (min-width: 64em) {
+    margin: 0 3%;
+  }
+}
 
 ///////////////////
 //  .main-nav
@@ -33,7 +46,7 @@
 
 .top-logo {
   position: relative;
-  top: -24px;
+  top: -20px;
 }
 
 
@@ -41,9 +54,60 @@
 //  .hero
 //////////////////
 .hero {
-  padding: $padding * 72 0 $padding * 84;
+  background-repeat: no-repeat;
+  height: 415px;
+  padding-top: 2.54em;
+  text-align: center;
   @media only screen and (min-width: $medium-query) {
-    padding: $padding * 78 0;
+    height: 450px;
+    padding-top: 6.24em;
+    text-align: left;
+  }
+}
+
+
+/////////////////////
+//  .main-about 
+////////////////////
+
+.main-about {
+ .my-about {
+   background: $gold;
+   color: $white;
+   margin-top: $margin * -5;
+   @media only screen and (min-width: $large-query) {
+      border-right: 5px solid $white;
+      padding: $padding * 16 0;
+   }
+ }
+ .my-about-pic {
+   margin-top: $margin * -5;
+   @include background(image-url("me.jpg"), $black);
+   @include background-basics;
+   background-position: 50% 5%;
+ }
+}
+
+////////////////////
+//  .services
+///////////////////
+
+.services {
+  padding: 3em 0;
+  @media only screen and (min-width: $medium-query) {
+    padding: 5em 0;
+  }
+  .columns {
+    padding: 1.35em 0;
+    &:last-of-type {
+      padding-bottom: 0;
+    }
+    @media only screen and (min-width: $medium-query) {
+      padding: 0 .625em;
+    }
+    @media only screen and (min-width: $large-query) {
+      padding: 0 1.25em;
+    }
   }
 }
 
@@ -82,31 +146,102 @@
     @include background-basics;
   }
 }
- 
-/////////////////////
-//  .main-about 
-////////////////////
-
-.main-about {
-  color: $black;
-  .my-about-pic {
-    margin-top: $margin * -5;
-    @include background($black-overlay, image-url("my-image.jpg"), $black);
-    @include background-basics;
-    background-position: 50% 5%;
-  }
-}
 
 //////////////////////////////////////
 // .web-work + .design-work
-//////////////////////////////////////
+/////////////////////////////////////
 
-.aerom {
-  @include background($black-overlay, image-url("notebook.jpg"), $black);
-  @include background-basics;
-  border-right: 5px solid $white;
-  padding: $padding * 56 0;
+.web-work,
+.design-work {
+  .columns {
+    padding: 0 3%;
+    @media only screen and (min-width: $medium-query) {
+      padding: 0 1%;
+    }
+    @media only screen and (min-width: $large-query) {
+      padding: 0 .25%;
+    }
+  }
+  .project {
+    @include background($black-overlay, image-url("https://hd.unsplash.com/photo-1449484956348-51e3a55fd0ab"), $black);
+    @include background-basics;
+    margin-bottom: 1.25%;
+    padding: $padding * 102 0;
+    @media only screen and (min-width: $large-query) {
+      margin-bottom: $margin * 3;
+      padding: $padding * 124 0;
+    }
+  }
+  .preview {
+    display: inline-block;
+    padding: $padding * 4 $padding * 8;
+    position: relative;
+    bottom: 396px;
+    left: 10px;
+    @media only screen and (min-width: $medium-query) {
+      bottom: 248px;
+      left: 20px;
+    }
+    @media only screen and (min-width: $large-query) {
+      bottom: 280px;
+    }
+  }
 }
+
+#dapper {
+  padding-bottom: $padding * 24;
+  background: $gold;
+  .preview-photo {
+    display: inline-block;
+    margin: $margin * 16 0;
+    @media only screen and (min-width: $medium-query) {
+      margin: $margin * 24 0;
+    }
+  }
+}
+
+#aerom {
+  @include background($black-overlay, image-url("aerom.png"), $black);
+  @include background-basics;
+  &:hover {
+    @include background($light-overlay, image-url("aerom.png"), $black);
+    @include background-basics;
+    + .preview {
+      h3 {
+        color: $black;
+      }
+    }
+  }
+}
+
+#lorem {
+  @include background($black-overlay, image-url("https://images.unsplash.com/photo-1453225231889-b24b77c4addf?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&s=dd79ab5dd674e99275cdde82d92891b2"), $black);
+  @include background-basics;
+  &:hover {
+    @include background($light-overlay, image-url("https://images.unsplash.com/photo-1453225231889-b24b77c4addf?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&s=dd79ab5dd674e99275cdde82d92891b2"), $black);
+    @include background-basics;
+    + .preview {
+      h3 {
+        color: $gold;
+      }
+    }
+  }
+}
+
+#ipsum {
+  @include background($black-overlay, image-url("https://images.unsplash.com/photo-1431794062232-2a99a5431c6c?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&s=ca8c83a899598edcd173baaa79240a07"), $black);
+  @include background-basics;
+  &:hover {
+    @include background($light-overlay, image-url("https://images.unsplash.com/photo-1431794062232-2a99a5431c6c?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&s=ca8c83a899598edcd173baaa79240a07"), $black);
+    @include background-basics;
+    + .preview {
+      h3 {
+        color: $black;
+      }
+    }
+  }
+}
+
  
 //////////////////////
 // #contact
@@ -114,11 +249,6 @@
 
 #contact {
   padding-bottom: $padding * 28;
-  .contact-bg {
-    margin-top: $margin * -5;
-    @include background($black-overlay, image-url("https://hd.unsplash.com/photo-1423784346385-c1d4dac9893a"), $black);
-    @include background-basics;
-  }
 }
  
 ////////////////////

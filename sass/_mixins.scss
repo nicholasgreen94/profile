@@ -12,3 +12,10 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+@mixin bg-tranform-effect {
+  transition: all .4s ease-in-out;
+  &:hover {
+    transform: scale(1.1); 
+  }
+}
