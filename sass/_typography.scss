@@ -157,6 +157,10 @@ li {
     @media only screen and (min-width: $large-query) {
       margin-bottom: 0;
     }
+    &:hover {
+      @include transform(scale(1.12));
+      color: $black;
+    }
   }
 }
 
@@ -167,7 +171,7 @@ li {
 
 .services {
   h2 {
-    padding: .5em 0;
+    padding-top: .5em;
   }
 }
 
