@@ -5,7 +5,7 @@
     <section class="hero">
       <div class="row">
         <div class="small-offset-1 small-10 medium-offset-1 large-offset-0">
-                    <h1 class="large-offset-0"><?php echo "$first_name " . "$last_name"; ?></h1>
+          <h1 class="large-offset-0"><?php echo "$first_name " . "$last_name"; ?></h1>
           <span>web developer and designer
           <br><div class="left-indent">living in Tucson, Arizona</div></span>
         </div>
@@ -14,16 +14,21 @@
     <!-- services -->
     <section class="services">
       <div class="row">
-        <h2 class="small-offset-1 small-10 medium-offset-2 medium-8 text-center">I create and develop websites, logos, brands, and designs.</h2>
+        <hr class="gold-bar small-2">
+        <div class="medium-offset-4 medium-4">
+          <img src="img/me-polygon.jpg" />
+        </div>
+        <hr class="gold-bar small-1">
+        <h2 class="creative small-offset-1 small-10 medium-offset-2 medium-8 text-center">I create and develop websites, logos, brands, and designs.</h2>
       </div>
     </section><!-- .services -->
     <!-- .main-about -->
-    <section class="main-about" data-equalizer data-equalize-on="large">
+    <section class="main-about">
       <div class="row">
-        <h2 class="text-center show-for-large">A little about myself</h2>
-        <div class="small-12 large-4 columns text-center my-about" data-equalizer-watch>
+        <h2 class="text-left show-for-large">A little about myself</h2>
+        <div class="small-12 large-5 text-left my-about">
           <h2 class="text-center hide-for-large">A little about myself</h2>
-          <p class="small-offset-1 small-10 text-left">
+          <p class="text-left small-offset-1 small-10 medium-6 large-offset-0 large-12">
             My name is Nicholas Green. I am a self-taught web designer/developer that is currently living in Tucson, Arizona. 
             Originally from Salt Lake City, Utah. However, at the age of 21, I sought out new scenery, adventure, and climate, 
             and moved down to the valley of the sun. My interest in web design and development grew after reading a book about 
@@ -36,9 +41,7 @@
           </p>
           <a href="about.php">Read More</a>
         </div>
-        <div class="small-12 large-8 columns text-center my-about-pic" data-equalizer-watch>
-        </div>
-      </div>
+      </div><!-- .row -->
     </section><!-- .main-about -->
     <!-- .main-work -->
     <section class="main-work">

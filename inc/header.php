@@ -28,7 +28,7 @@
             <a class="title-bar-title logo top-logo" href="#">NG</a>
           </div>
         </div>
-        <nav class="main-nav top-bar-left" id="navigation">
+        <nav class="main-nav top-bar-right" id="navigation">
           <ul class="dropdown menu " data-dropdown-menu>
             <li class="first-nav-item"><a class="first-nav-item" href="index.php">Home</a></li>
             <li><a href="web.php">Web</a></li>

@@ -27,6 +27,10 @@ body {
   }
 }
 
+.gold-bar {
+  border-bottom: 1px solid $gold;
+}
+
 ///////////////////
 //  .main-nav
 //////////////////
@@ -49,6 +53,16 @@ body {
   top: -20px;
 }
 
+.border {
+  border: 15px solid $gold;
+  height: 357px; 
+  z-index: -1;
+  width: 42%;
+  position: absolute;
+  left: 0em;
+  top: 40em;
+}
+
 
 ///////////////////
 //  .hero
@@ -65,29 +79,6 @@ body {
   }
 }
 
-
-/////////////////////
-//  .main-about 
-////////////////////
-
-.main-about {
- .my-about {
-   background: $gold;
-   color: $white;
-   margin-top: $margin * -5;
-   @media only screen and (min-width: $large-query) {
-      border-right: 5px solid $white;
-      padding: $padding * 16 0;
-   }
- }
- .my-about-pic {
-   margin-top: $margin * -5;
-   @include background(image-url("me.jpg"), $black);
-   @include background-basics;
-   background-position: 50% 5%;
- }
-}
-
 ////////////////////
 //  .services
 ///////////////////
@@ -95,15 +86,47 @@ body {
 .services {
   padding: 8em 0;
   @media only screen and (min-width: $medium-query) {
-    padding: 15em 0;
+    padding: 4em 0 12em;
+    .gold-bar {
+      &:first-of-type {
+        @include rotate(55deg);
+        position: relative;
+        top: -6em;
+        right: 6em;
+      }
+      &:nth-of-type(2) {
+        @include rotate(90deg);
+        position: relative;
+        top: 2.25em;
+        right: -.2em;
+      }
+    }
   }
 }
 
+/////////////////////
+//  .main-about 
 ////////////////////
-//  .web
+
+.main-about {
+  padding-bottom: 5em;
+ .my-about {
+   color: $black;
+   margin-top: $margin * -5;
+   @media only screen and (min-width: $large-query) {
+      border-right: 5px solid $white;
+      padding: $padding * 16 0;
+   }
+ }
+}
+
+
+////////////////////
+//  .main-work
 ///////////////////
 
 .main-work {
+  padding-top: 12em;
   .columns {
     padding: 0;
   }
