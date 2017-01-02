@@ -5,17 +5,17 @@ $white: #fff;
 $gold: #d19537;
 $red: #da483a;
 $wheat: #f5deb3;
+$peach: #F29472;
 
 
 // Overlays 
-$black-overlay: linear-gradient(rgba(97,86,86,.45), rgba(97,86,86,.45));
+$black-overlay: linear-gradient(rgba(97,86,86,.65), rgba(97,86,86,.65));
 $light-overlay: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3));
-$gold-overlay: linear-gradient(rgba(209, 149, 55, .45), rgba(209, 149, 55, .45));
+$gold-overlay: linear-gradient(rgba(209, 149, 55, .65), rgba(209, 149, 55, .65));
 
 // Including the Butler & Kano font
 @include font-face("Butler", "css/fonts/Butler_Regular.otf");
 @include font-face("Butler", "css/fonts/Butler_Bold.otf");
-@include font-face("Kano", "css/fonts/Kano.otf");
 @include font-face("outlined-iconset", "css/fonts/outlined-iconset.ttf");
 @include font-face("ElegantLux-Mager", "css/fonts/ElegantLux-Mager.otf");
 

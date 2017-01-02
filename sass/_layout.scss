@@ -15,8 +15,9 @@
 
 body {
   background: $white;
+  color: $black;
   font-size: $primary-font-size;
-  line-height: 1.4;
+  line-height: 1.5;
   overflow-x: hidden;
   overflow-y:  scroll;
 }
@@ -34,33 +35,13 @@ body {
 ///////////////////
 //  .main-nav
 //////////////////
-.title-bar,
 .main-nav {
   background: transparent;
-}
-
-
-.menu-icon {
-  box-shadow: 0 7px 0 $white,0 14px 0 $white;
-  &:after {
-    background: $black;
-    box-shadow: 0 7px 0 $black, 0 14px 0 $black;
-  }
 }
 
 .top-logo {
   position: relative;
   top: -20px;
-}
-
-.border {
-  border: 15px solid $gold;
-  height: 357px; 
-  z-index: -1;
-  width: 42%;
-  position: absolute;
-  left: 0em;
-  top: 40em;
 }
 
 
@@ -69,7 +50,7 @@ body {
 //////////////////
 .hero {
   background-repeat: no-repeat;
-  height: 415px;
+  height: 374px;
   padding-top: 2.54em;
   text-align: center;
   @media only screen and (min-width: $medium-query) {
@@ -84,15 +65,14 @@ body {
 ///////////////////
 
 .services {
-  padding: 8em 0;
   @media only screen and (min-width: $medium-query) {
     padding: 4em 0 12em;
     .gold-bar {
       &:first-of-type {
         @include rotate(55deg);
         position: relative;
-        top: -6em;
-        right: 6em;
+        top: -4em;
+        right: 4em;
       }
       &:nth-of-type(2) {
         @include rotate(90deg);
@@ -101,24 +81,60 @@ body {
         right: -.2em;
       }
     }
+  } // medium-query
+  @media only screen and (min-width: $large-query) {
+    .gold-bar {
+      &:first-of-type {
+        top: -6em;
+        right: 6em;
+      }
+    }
   }
-}
+}// .services
 
 /////////////////////
 //  .main-about 
 ////////////////////
 
 .main-about {
-  padding-bottom: 5em;
  .my-about {
    color: $black;
    margin-top: $margin * -5;
    @media only screen and (min-width: $large-query) {
-      border-right: 5px solid $white;
       padding: $padding * 16 0;
    }
+ }//.my-about
+ 
+ @media only screen and (min-width: $medium-query) {
+   margin-bottom: -6em;
+   .gold-polygon {
+      @include rotate(45deg);
+      border: 1px solid $gold;
+      height: 157px; 
+      z-index: -1;
+      width: 157px;
+      position: relative;
+      left: 38em;
+      top: -19em;
+   }
+   .gold-bar {
+      @include rotate(105deg);
+      position: relative;
+      top: -5em;
+      right: 2em;
+   }
  }
-}
+ @media only screen and (min-width: $large-query) {
+   margin-bottom: -8em;
+   .gold-polygon {
+     height: 207px; 
+     width: 207px;
+     left: 44em;
+     top: -22em;
+   }
+ }// .gold-polygon (medium-query)
+}// .main-about
+
 
 
 ////////////////////
@@ -126,43 +142,74 @@ body {
 ///////////////////
 
 .main-work {
-  padding-top: 12em;
+  padding-top: 2.5em;
   .columns {
     padding: 0;
+  }
+  .gold-bar {
+    @media only screen and (min-width: $medium-query) {
+      @include rotate(75deg);
+      position: relative;
+      top: -6.25em;
+    }
   }
   .web,
   .design {
     padding: $padding * 32 0 $padding * 8;
     @media only screen and (min-width: $medium-query) {
-      padding: $padding * 48 0 $padding * 16;
+      padding: $padding * 64 0 $padding * 46;
     }
     @media only screen and (min-width: $large-query) {
       padding: $padding * 84 0 $padding * 56;
+    }
+    hr {
+      margin: 10px auto;
     }
   }
   .web {
     @include background($black-overlay, image-url("https://hd.unsplash.com/photo-1449484956348-51e3a55fd0ab"), $black);
     @include background-basics; 
-    border-bottom: 5px solid $white;
+    border-bottom: 2px solid $white;
     @media only screen and (min-width: $medium-query) {
-      border-right: 2.5px solid $white;
-    }
-    @media only screen and (min-width: $large-query) {
-      border-right: 5px solid $white;
+      border: none;
+      box-shadow: -2em 2em 0 $wheat;
+      margin: 3em 0 16em;
     }
   }
   .design {
-    @include background($black-overlay, image-url("https://hd.unsplash.com/photo-1466786784937-3e682c802b14"), $black);
+    @include background($gold-overlay, image-url("https://hd.unsplash.com/photo-1466786784937-3e682c802b14"), $black);
     @include background-basics;
+    @media only screen and (min-width: $medium-query) {
+      box-shadow: 2em 2em 0 $gold;
+    }
   }
 }
 
+.web {
+  padding-bottom: $padding * 12;
+}
+
 //////////////////////////////////////
-// .web-work + .design-work
+// .web-project + .design-project
 /////////////////////////////////////
 
 .web-work,
 .design-work {
+    background: $white;
+    @media only screen and (min-width: $medium-query) {
+      .first-gold-bar {
+        @include rotate(53deg);
+          position: relative;
+          top: -3.4em;
+          right: 6em;
+        }
+      }
+    @media only screen and (min-width: $large-query) {
+    .first-gold-bar {
+          top: -3.4em;
+          right: 7em;
+        }
+      }
   .columns {
     padding: 0 3%;
     @media only screen and (min-width: $medium-query) {
@@ -172,36 +219,10 @@ body {
       padding: 0 .25%;
     }
   }
-  .project {
-    @include background($black-overlay, image-url("https://hd.unsplash.com/photo-1449484956348-51e3a55fd0ab"), $black);
-    @include background-basics;
-    margin-bottom: 1.25%;
-    padding: $padding * 102 0;
-    @media only screen and (min-width: $large-query) {
-      margin-bottom: $margin * 3;
-      padding: $padding * 124 0;
-    }
-  }
-  .preview {
-    display: inline-block;
-    padding: $padding * 4 $padding * 8;
-    position: relative;
-    bottom: 396px;
-    left: 10px;
-    @media only screen and (min-width: $medium-query) {
-      bottom: 248px;
-      left: 20px;
-    }
-    @media only screen and (min-width: $large-query) {
-      bottom: 280px;
-    }
-  }
 }
 
-#dapper,
-#aerom {
-  padding-bottom: $padding * 24;
-  background: $red;
+.web-project,
+.design-project {
   .preview-photo {
     display: inline-block;
     margin: $margin * 16 0;
@@ -211,10 +232,6 @@ body {
   }
 }
 
-#aerom {
-  background: $black;
-}
- 
 //////////////////////
 // #contact
 /////////////////////
@@ -222,7 +239,33 @@ body {
 #contact {
   padding: 3em 0;
   @media only screen and (min-width: $medium-query) {
-    padding: 5em 0;
+    padding: 10em 0 5em;
+    .gold-bar {
+      @include rotate(110deg);
+      position: relative;
+      top: -1.84em;
+      right: 5em;
+      &:nth-of-type(2) {
+        @include rotate(65deg);
+        top: 2em;
+        right: -1em;
+      }
+      @media only screen and (min-width: $large-query) {
+        &:nth-of-type(2) {
+          @include rotate(55deg);
+          top: 2em;
+          right: 6em;
+        }
+      }
+    }
+  }
+  .social-media {
+    h2 {
+      padding-top: .75em;
+    }
+    @media only screen and (min-width: $medium-query) {
+      padding-top: 3em;
+    }
   }
 }
  
@@ -231,7 +274,6 @@ body {
 ///////////////////
 
 .main-footer {
-  background: $black;
   color: $white;
   margin-top: $margin * 24;
   @media only screen and (min-width: $medium-query) {
@@ -244,15 +286,6 @@ body {
     @media only screen and (min-width: $medium-query) {
       height: 72px;
       top: -36px;
-    }
-  }
-  .social-media {
-    li {
-      display: inline-block;
-    }
-    a {
-      margin: 0 $margin * 1;
-      padding: $padding * 4;
     }
   }
 }

@@ -22,14 +22,8 @@
   <body>
     <div class="row" id="top">
       <header class="main-header small-offset-0 medium-offset-1 large-offset-0">
-        <div class="title-bar" data-responsive-toggle="navigation" data-hide-for="medium">
-          <button class="menu-icon" type="button" data-toggle></button>
-          <div class="menu-centered">
-            <a class="title-bar-title logo top-logo" href="#">NG</a>
-          </div>
-        </div>
-        <nav class="main-nav top-bar-right" id="navigation">
-          <ul class="dropdown menu " data-dropdown-menu>
+        <nav class="main-nav" id="navigation">
+          <ul class="menu">
             <li class="first-nav-item"><a class="first-nav-item" href="index.php">Home</a></li>
             <li><a href="web.php">Web</a></li>
             <li><a href="design.php">Design</a></li>

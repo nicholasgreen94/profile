@@ -3,13 +3,12 @@
 // global styles
 //////////////////
 
-body {
-  color: $black;
-}
 
 p {
   font-family: $secondary-font;
+  font-weight: 300;
   @include adjust-font-size-to($primary-font-size);
+  line-height: 1.5;
 }
 
 a {
@@ -25,12 +24,11 @@ h2,
 h3,
 h4 {
   font-family: $primary-font;
-  font-weight:  700;
+  font-weight:  900;
 }
 
 h1 {
-  font-weight: 700;
-  line-height: 1em;
+  line-height: 1.3;
   padding-top: .5em;
   @include adjust-font-size-to($secondary-font-size); // 3.375 * 16px = 54px
   @media only screen and (min-width: $medium-query) {
@@ -48,7 +46,7 @@ h2 {
 h3 {
   color: $white;
   font-size: $fourth-font-size;
-  @media only screen and (min-width: $large-query) {
+  @media only screen and (min-width: $medium-query) {
     font-size: $third-font-size;
   }
 }
@@ -62,18 +60,21 @@ li {
   font-family: $secondary-font;
 }
 
+@media only screen and (min-width: $medium-query) {
+  .left-indent {
+    text-indent: .5em;
+  }
+}
+
 /////////////////
 // navigation
 ////////////////
 
-.main-nav {
-  text-align: right; 
-}
-
 .menu {
+  display: block;
   text-align: center;
   @media only screen and (min-width: $medium-query) {
-    text-align: left;
+    text-align: right;
   }
   li {
     display: inline-block;
@@ -114,23 +115,25 @@ li {
 }
 
 .hero {
+  text-align: left;
   span {
     display: inline-block;
     font-family: $primary-font;
     font-size: $fourth-font-size;
+    font-weight: 700;
     @media only screen and (min-width: $medium-query) {
       font-size: $third-font-size;
       line-height: .9;
-      .left-indent {
-        text-indent: .5em;
-      }
     }
   }
 }
 
 .services {
   h2 {
-    padding-top: 2.25em;
+    padding-top: 0;
+    @media only screen and (min-width: $medium-query) {
+      padding-top: 2em;
+    }
   }
 }
 
@@ -138,16 +141,16 @@ li {
 ///////////////////
 //.main-about
 //////////////////
-
 .main-about,
 #contact {
   .columns {
     padding: 0;
   }
   h2 {
-    padding: .75em 0 .15em;
+    padding-top: .5em;
   }
   p {
+    font-weight: 400;
     margin-bottom: $margin * 12;
   }
   a {
@@ -182,22 +185,34 @@ li {
 .web,
 .design {
   p {
-    margin-bottom: $margin * 8;
+    color: $white;
+    font-weight: 400;
+    padding: $margin * 4 0 1.5em;
   }
-  p,
   a {
     color: $white;
-  }
-  a {
     @include transition(.2s);
     @include transition-timing-function(ease-in-out);
     &:hover {
-      color: $gold;
+      color: $wheat;
       @include transform(scale(1.12));
     }
     &:active,
     &:focus {
-      color: $gold;
+      color: $wheat;
+    }
+  }
+}
+
+.design {
+  a {
+    &:hover {
+      color: $black;
+      @include transform(scale(1.12));
+    }
+    &:active,
+    &:focus {
+      color: $black;
     }
   }
 }
@@ -208,14 +223,34 @@ li {
 
 .web-work,
 .design-work {
-  .preview {
+  .web-project,
+  .design-project {
     h3 {
       @extend h3;
+      color: $black;
       @media only screen and (min-width: $medium-query) {
         font-size: $third-font-size;
       }
     }
-  }
+    p {
+      color: $black;
+      font-weight: 400;
+      padding: $margin * 4 0 1.5em;
+    }
+    a {
+      color: $black;
+      @include transition(.2s);
+      @include transition-timing-function(ease-in-out);
+      &:hover {
+        color: $wheat;
+        @include transform(scale(1.12));
+      }
+      &:active,
+      &:focus {
+        color: $wheat;
+        }
+      }
+    }
 }
 
 /////////////////////
@@ -226,9 +261,19 @@ li {
   a {
     color: $black;
   }
-  .contact-bg {
-    p {
-      color: $white;
+  .social-media {
+    li {
+      display: inline-block;
+      margin: 0 3%;
+    }
+    a {
+      color: $black;
+      text-transform: none;
+      img {
+        height: 20px;
+        max-width: 100%;
+        width: 20px;
+      }
     }
   }
 }
@@ -237,24 +282,16 @@ li {
 //.main-footer
 //////////////////
 .main-footer {
-  p {
-    padding-bottom: $padding * 4;
-  }
-  .social-media {
-    li {
-      font-size: $primary-font-size * 1.25;
-      a {
-        color: $white; 
-        &:hover {
-          color: $gold;
-        }
-      }
-    }
-  }
-  .fa-angle-up {
-    color: $white;
+  .up-arrow {
+    color: $black;
+    display: inline-block;
     font-size: $third-font-size;
-    margin-bottom: $margin * 6;
     padding: $padding * 4;
+    @include transition(.32s);
+      &:hover,
+      &:visited,
+      &:focus {
+        color: $gold;
+    }
   }
 }
