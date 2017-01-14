@@ -1,18 +1,19 @@
 
 <?php include("inc/header.php");?>
+<?php $title = "Design" ?>
 <div id="design-page">
   <!-- .hero -->
   <section class="hero">
     <div class="row">
-      <div class="text-left small-offset-1 large-offset-0">
-        <h1><?php echo "Design"; ?></h1>
-        <span class="left-indent">some of my work that I created</span>
+      <div class="small-offset-1 text-left">
+        <h1><?php echo "$title"; ?></h1>
+        <span>Some designs, some cool things</span>
       </div>
     </div>
   </section><!-- .hero -->
   <!-- design-work -->
   <section class="design-work">
-    <hr class="first-gold-bar gold-bar hide-for-small-only medium-2 large-2"><!-- .gold-bar -->
+    <hr class="first-gold-bar gold-bar hide-for-small-only medium-1"><!-- .gold-bar -->
     <div class="row expanded">
       <div class="small-12">
         <article class="design-project text-center" id="sky">
@@ -22,7 +23,6 @@
               <p class="text-left small-offset-1 small-10 medium-offset-3 medium-6">
                 But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness.
               </p>
-              <p><span class="created">Created With:</span> HTML, CSS, JavaScript, jQuery</p>
             <a class="btn" href="img/sky.jpg">View</a>
           </div>
         </article>
@@ -39,7 +39,6 @@
               <p class="text-left small-offset-1 small-10 medium-offset-3 medium-6">
                 But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness.
               </p>
-              <p><span class="created">Created With:</span> HTML, CSS, JavaScript, jQuery</p>
               <a class="btn" href="img/Glacier_Brew.jpg">View</a>
             </div>
           </article>
@@ -55,7 +54,6 @@
                 <p class="text-left small-offset-1 small-10 medium-offset-3 medium-6">
                   But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness.
                 </p>
-                <p><span class="created">Created With:</span> HTML, CSS, JavaScript, jQuery</p>
               <a class="btn" href="img/polygon.jpg">View</a>
             </div>
           </article>

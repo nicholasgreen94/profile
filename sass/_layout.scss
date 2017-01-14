@@ -19,7 +19,6 @@ body {
   font-size: $primary-font-size;
   line-height: 1.5;
   overflow-x: hidden;
-  overflow-y:  scroll;
 }
 
 .row {
@@ -99,24 +98,19 @@ body {
 .main-about {
  .my-about {
    color: $black;
-   margin-top: $margin * -5;
-   @media only screen and (min-width: $large-query) {
-      padding: $padding * 16 0;
+   .vnstyle {
+     font-size: $primary-font-size;
+     font-weight: 700;
+     text-transform: none;
+     &:hover {
+       @include scale(1);
+       color: $gold;
+     }
    }
+
  }//.my-about
  
  @media only screen and (min-width: $medium-query) {
-   margin-bottom: -6em;
-   .gold-polygon {
-      @include rotate(45deg);
-      border: 1px solid $gold;
-      height: 157px; 
-      z-index: -1;
-      width: 157px;
-      position: relative;
-      left: 38em;
-      top: -19em;
-   }
    .gold-bar {
       @include rotate(105deg);
       position: relative;
@@ -125,17 +119,9 @@ body {
    }
  }
  @media only screen and (min-width: $large-query) {
-   margin-bottom: -8em;
-   .gold-polygon {
-     height: 207px; 
-     width: 207px;
-     left: 44em;
-     top: -22em;
-   }
- }// .gold-polygon (medium-query)
+   margin-bottom: 4em;
+ }
 }// .main-about
-
-
 
 ////////////////////
 //  .main-work
@@ -172,7 +158,7 @@ body {
     border-bottom: 2px solid $white;
     @media only screen and (min-width: $medium-query) {
       border: none;
-      box-shadow: -2em 2em 0 $wheat;
+      box-shadow: -2em 2em 0 $black;
       margin: 3em 0 16em;
     }
   }
@@ -193,23 +179,18 @@ body {
 // .web-project + .design-project
 /////////////////////////////////////
 
+#design-page {
+  .hero {
+    height: 188px;
+    @media only screen and (min-width: $medium-query) {
+      height: 374px;
+    }
+  }
+}
+
 .web-work,
 .design-work {
     background: $white;
-    @media only screen and (min-width: $medium-query) {
-      .first-gold-bar {
-        @include rotate(53deg);
-          position: relative;
-          top: -3.4em;
-          right: 6em;
-        }
-      }
-    @media only screen and (min-width: $large-query) {
-    .first-gold-bar {
-          top: -3.4em;
-          right: 7em;
-        }
-      }
   .columns {
     padding: 0 3%;
     @media only screen and (min-width: $medium-query) {
@@ -221,9 +202,45 @@ body {
   }
 }
 
+.web-work {
+  @media only screen and (min-width: $medium-query) {
+    .first-gold-bar {
+      @include rotate(53deg);
+        position: relative;
+        top: -1.4em;
+        right: 6em;
+      }
+    }
+    @media only screen and (min-width: $large-query) {
+    .first-gold-bar {
+          top: -3.4em;
+          right: 7em;
+        }
+      }
+}
+
+.design-work {
+  background: $white;
+  @media only screen and (min-width: $medium-query) {
+    .first-gold-bar {
+      @include rotate(53deg);
+        position: relative;
+        top: -.4em;
+        right: 6em;
+      }
+    }
+  @media only screen and (min-width: $large-query) {
+    .first-gold-bar {
+      top: -1.4em;
+      right: 7em;
+    }
+  }
+}
+
 .web-project,
 .design-project {
   .preview-photo {
+    box-shadow: 0 2px 4px lighten($black, 50%);
     display: inline-block;
     margin: $margin * 16 0;
     @media only screen and (min-width: $medium-query) {
@@ -290,3 +307,124 @@ body {
   }
 }
 
+
+//////////////////////
+// .about - About Page
+/////////////////////
+
+#about {
+  .hero {
+    height:188px;
+    @media only screen and (min-width: $medium-query) {
+      height: 450px;
+    }
+  }  
+}
+
+.beginning {
+  .gold-bar {
+    position: relative;
+    top: -.5em;
+  }  
+  @media only screen and (min-width: $medium-query) {
+    .gold-bar {
+      @include rotate(78deg);
+      position: relative;
+      top: -5em;
+      right: 12em;
+    }
+  }
+  @media only screen and (min-width: $large-query) {
+    .gold-bar {
+      position: relative;
+      top: -5em;
+      right: 16em;
+    }
+  }
+  .about-information {
+    @media only screen and (min-width: $medium-query) {
+      .gold-bar {
+        @include rotate(53deg);
+        position: relative;
+        top: -5em;
+        right: 12em;
+        &:last-of-type {
+          top: 3.5em;
+          right: 0;
+        }
+      }
+    }
+    @media only screen and (min-width: $large-query) {
+      .gold-bar {
+        @include rotate(53deg);
+        position: relative;
+        top: -5em;
+        right: 12em;
+        &:last-of-type {
+          top: 2.5em;
+          right: 0;
+        }
+      }
+      .beginning-about-p {
+        position: relative;
+        top: -1em;
+      }
+    }
+  }// .about-information
+}// .beginning
+
+.garden-picture,
+.beach-picture {
+  width: 100%;
+  @media only screen and (min-width: $medium-query) {
+    margin: 8em 0;
+    width: 90%;
+  }
+  @media only screen and (min-width: $large-query) {
+    width: 80%;
+  }
+}// .garden-picture
+
+.garden-picture {
+  box-shadow: .5em .5em 0 $gold;
+}
+
+.beach-picture {
+  box-shadow: -.5em .5em 0 $gold;
+}
+
+.middle {
+  @media only screen and (min-width: $medium-query) {
+  .gold-bar {
+      @include rotate(115deg);
+      position: relative;
+      top: -3em;
+      right: 1em;
+    &:last-of-type {
+      @include rotate(72deg);
+        top: 3em;
+        right: 6em;
+      }
+    }
+  }
+  @media only screen and (min-width: $large-query) {
+    .gold-bar {
+    &:last-of-type {
+      @include rotate(60deg);
+        top: 3em;
+        right: 10em;
+      }
+    }
+  }
+}// .middle
+
+.end {
+    @media only screen and (min-width: $medium-query) {
+      .gold-bar {
+        @include rotate(112deg);
+        position: relative;
+        top: -3em;
+        right: 3em;
+    }
+  }
+}

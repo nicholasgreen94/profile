@@ -3,9 +3,6 @@
 $black: #413b3b;
 $white: #fff;
 $gold: #d19537;
-$red: #da483a;
-$wheat: #f5deb3;
-$peach: #F29472;
 
 
 // Overlays 
@@ -16,12 +13,12 @@ $gold-overlay: linear-gradient(rgba(209, 149, 55, .65), rgba(209, 149, 55, .65))
 // Including the Butler & Kano font
 @include font-face("Butler", "css/fonts/Butler_Regular.otf");
 @include font-face("Butler", "css/fonts/Butler_Bold.otf");
-@include font-face("outlined-iconset", "css/fonts/outlined-iconset.ttf");
 @include font-face("ElegantLux-Mager", "css/fonts/ElegantLux-Mager.otf");
+@include font-face("Born", "css/fonts/Born.otf");
 
 // Fonts 
 $primary-font: "acta-display", "Butler", Georgia, Times, serif;
-$secondary-font: "Butler", Helvetica, verdana, sans-serif;
+$secondary-font: "Born", Helvetica, verdana, sans-serif;
 
 // Font sizes 
 $primary-heading: 5.625em;
