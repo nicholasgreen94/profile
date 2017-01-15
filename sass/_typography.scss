@@ -30,7 +30,6 @@ h4 {
 
 h1 {
   padding-top: .5em;
-  text-transform: lowercase;
   @include adjust-font-size-to($secondary-font-size); // 3.375 * 16px = 54px
   @media only screen and (min-width: $medium-query) {
     @include adjust-font-size-to($primary-heading); // 4.625em * 16px = 74px
@@ -83,7 +82,6 @@ li {
     display: inline-block;
     margin: .25em;
     a {
-      @include lowercase;
       font-family: $secondary-font;
       font-size: 14px;
       padding: .5em .25em;
@@ -126,7 +124,6 @@ li {
     font-size: $fourth-font-size;
     font-style: italic;
     font-weight: 700;
-    text-transform: lowercase;
     @media only screen and (min-width: $medium-query) {
       font-size: $third-font-size;
       line-height: 1;

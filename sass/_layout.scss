@@ -21,6 +21,10 @@ body {
   overflow-x: hidden;
 }
 
+img {
+  max-width: 100%;
+}
+
 .row {
   @media only screen and (min-width: 64em) {
     margin: 0 3%;
@@ -285,28 +289,6 @@ body {
     }
   }
 }
- 
-////////////////////
-// .main-footer 
-///////////////////
-
-.main-footer {
-  color: $white;
-  margin-top: $margin * 24;
-  @media only screen and (min-width: $medium-query) {
-    margin-top: $margin * 48;
-  }
-  .footer-logo {
-    height: 56px;
-    position: relative;
-    top: -28px;
-    @media only screen and (min-width: $medium-query) {
-      height: 72px;
-      top: -36px;
-    }
-  }
-}
-
 
 //////////////////////
 // .about - About Page
@@ -377,7 +359,7 @@ body {
 .beach-picture {
   width: 100%;
   @media only screen and (min-width: $medium-query) {
-    margin: 8em 0;
+    margin: 4em 0;
     width: 90%;
   }
   @media only screen and (min-width: $large-query) {
@@ -393,38 +375,46 @@ body {
   box-shadow: -.5em .5em 0 $gold;
 }
 
-.middle {
-  @media only screen and (min-width: $medium-query) {
-  .gold-bar {
-      @include rotate(115deg);
-      position: relative;
-      top: -3em;
-      right: 1em;
-    &:last-of-type {
-      @include rotate(72deg);
-        top: 3em;
-        right: 6em;
+.end {
+    @media only screen and (min-width: $medium-query) {
+      margin: 2em 0;
+      .end-text {
+        margin-top: 6em;
       }
+      .gold-bar {
+        @include rotate(112deg);
+        position: relative;
+        top: 0;
+        right: 3em;
+        &:last-of-type {
+          @include rotate(56deg);
+          position: relative;
+          top: 0;
+          right: 8em;
+        }
     }
   }
   @media only screen and (min-width: $large-query) {
     .gold-bar {
-    &:last-of-type {
-      @include rotate(60deg);
-        top: 3em;
-        right: 10em;
+      &:last-of-type {
+          right: 12em;
+        }
       }
     }
-  }
-}// .middle
-
-.end {
-    @media only screen and (min-width: $medium-query) {
-      .gold-bar {
-        @include rotate(112deg);
-        position: relative;
-        top: -3em;
-        right: 3em;
+    .end-text {
+      margin-top: 2em;
     }
-  }
 }
+
+
+////////////////////
+// .main-footer 
+///////////////////
+
+.main-footer {
+ .up-arrow{
+    color: $black;
+    display: inline-block;
+ }
+}
+

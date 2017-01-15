@@ -20,7 +20,7 @@
           <div class="small-12">
               <img class="preview-photo" src="img/sky.jpg" alt="Triangle with sky in the background"/>
               <h3>Sky Triangle</h3>
-              <p class="text-left small-offset-1 small-10 medium-offset-3 medium-6">
+              <p class="text-left small-offset-1 small-10 medium-offset-2 medium-8 large-offset-3 large-6">
                 But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness.
               </p>
             <a class="btn" href="img/sky.jpg">View</a>
@@ -36,7 +36,7 @@
           <div class="small-12">
             <img class="preview-photo" src="img/Glacier_Brew.jpg" alt="Glacier Brew ad"/>
               <h3>Glacier Brew</h3>
-              <p class="text-left small-offset-1 small-10 medium-offset-3 medium-6">
+              <p class="text-left small-offset-1 small-10 medium-offset-2 medium-8 large-offset-3 large-6">
                 But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness.
               </p>
               <a class="btn" href="img/Glacier_Brew.jpg">View</a>
@@ -51,7 +51,7 @@
             <div class="small-12">
                 <img class="preview-photo" src="img/polygon.jpg" alt="Experiment of Polygons"/>
                 <h3>Polygon</h3>
-                <p class="text-left small-offset-1 small-10 medium-offset-3 medium-6">
+                <p class="text-left small-offset-1 small-10 medium-offset-2 medium-8 large-offset-3 large-6">
                   But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness.
                 </p>
               <a class="btn" href="img/polygon.jpg">View</a>

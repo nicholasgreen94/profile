@@ -1,7 +1,7 @@
 
   <!-- .main-footer -->
   <footer class="main-footer text-center">
-    <p><a href=""><img src="img/main_logo.svg"></a></p>
+    <a class="up-arrow" href="#top">&#8963;</a>
   </footer><!-- .main-footer -->
     <!-- jQuery CDN -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>

@@ -6,8 +6,7 @@
       <div class="row">
         <div class="small-offset-1 small-10 medium-offset-1 text-left">
           <h1 class="large-offset-0"><?php echo "$first_name " . "$last_name"; ?></h1>
-          <span>Web Developer and Designer
-          <br>living in Tucson, Arizona</span>
+          <span>Web Developer and Designer</span>
         </div>
       </div>
     </section><!-- .hero -->
@@ -19,7 +18,7 @@
           <img src="img/me-polygon.jpg" alt="Picture of me">
         </div>
         <hr class="gold-bar small-2 medium-1">
-        <h2 class="creative small-offset-1 small-10 medium-offset-2 medium-8 text-center">I create and develop websites, logos, brands, and designs.</h2>
+        <h2 class="creative small-offset-1 small-10 medium-offset-2 medium-8 text-center">I specialize in creating websites, logos, graphics, and icons.</h2>
       </div>
     </section><!-- .services -->
     <!-- .main-about -->
@@ -30,16 +29,13 @@
         <div class="small-12 large-offset-2 large-5 text-left my-about">
           <h2 class="hide-for-large small-offset-1">A little about myself</h2>
           <p class="text-left small-offset-1 small-10 medium-7 large-offset-0 large-12">
-            Hi, as stated above my name is Nicholas Green, but I also go by Nick. I'm a freelance web designer and developer from Salt Lake City, Utah and now living in 
-            Tucson, Arizona after a stop in Phoenix for a couple of years. While working in the financial sector for a few years and 
-            graduating with two associate degrees I was on a search for something that would bring more joy where I could use 
-            creativity on a daily basis. After months of searching I found web development, which also led me to learn about design. 
-            I read books, watched videos, drank lots of coffee and stayed up late teaching myself how to code and design.  
-            Coding in my free time, I created and sketched out designs  and ideas for mobile, tablet, and desktop, then coded it 
-            out for the browser for practicing and teaching myself more. I have the skills to make logos, brands, and websites, 
-            not just websites, but responsive or mobile friendly websites. Mobile browsing is one of the most popular ways to reach 
-            your audience right now and is absolutely necessary in this day of ever changing technology. I would like the opportunity 
-            to work with your brand and see what ways I can help with your websites and branding. 
+            Hi there, as stated above my name is Nicholas Green, but I also go by Nick. I’m a freelance web designer 
+            and developer from the Salt Lake Valley and now living in Tucson, Arizona after a stop in Phoenix for a 
+            couple of years. While working in the financial sector for a few years and graduating with two associate 
+            degrees I was on a search for something that would bring more joy where I could use creativity on a daily 
+            basis. After months of searching I found web development, which also led me to learn about design. I read 
+            books, watched videos, drank lots of coffee and stayed up late teaching myself how to code and design.  
+            I filled my notebooks with designs  and ideas for mobile, tablet, and desktop, then coded it out for the web.
           </p>  
           <p class="text-left small-offset-1 small-10 medium-7 large-offset-0 large-12">
             When I am not developing or designing, you can find me sitting at awesome coffee shops, reading, writing, taking photos, 

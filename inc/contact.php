@@ -3,11 +3,11 @@
   <div class="row">
     <hr class="gold-bar hide-for-small-only medium-2 large-1">
     <article class="contact_section text-left">
-      <h2 class="small-offset-1">How to get in touch</h2>
+      <h2 class="small-offset-1">Let's get in touch</h2>
       <p class="small-offset-1 small-10 medium-offset-1 medium-8 large-offset-1 large-5">
-        I’m currently available for any type of freelance projects whether it be a website, logo, print, 
-        poster, branding, etc. If you have a project in mind, let me help you and we’ll create amazing 
-        things. Or if you want to say hi or collaborate, then let's get in contact with each other. 
+        I’m currently available for any type of freelance projects whether it be a website, logo, print, poster, 
+        branding, etc. If you have a project in mind, let me know and we’ll create amazing things. 
+        Or if you want to say hi or collaborate, then let's get in contact with each other.
       </p>
       <p class="email small-offset-1 large-offset-0">
         <a class="medium-offset-0 large-offset-1" href="mailto:nicholasgreencreations@gmail.com">Message Me</a>

@@ -22,24 +22,20 @@
           <div class="small-12 beginning-about-p">
             <h2 class="small-offset-1 medium-offset-2">Beginnings</h2>
             <p class="text-left small-offset-1 small-10 medium-offset-2 medium-7 large-offset-2 large-6">
-              My name is Nicholas Green. I am a self-taught web designer/developer that is currently living in Phoenix, Arizona. 
-              Originally from Salt Lake City, Utah. However, at the age of 21, I sought out new scenery, adventure, and climate, 
-              and moved down to the valley of the sun. My interest in web design and development grew after reading a book about 
-              the subject. It had me staying up all night reading. After that, I became consumed by the matter, learning from 
-              various resources when coming home from a full-time job. The main resource for learning was 
-              <a href="http://teamtreehouse.com/nicholasgreen" target="_blank">Team Treehouse</a>, learning from their videos, quizzes, and exercises.
-              My passion has only grown. The more subjects studied, the more my interest is peaked in the vast world of web 
-              design and development. While studying web design and development, Isites became more interested in design 
-              and started creating side projects as a way for me to express my creativity. 
-              My name is Nicholas Green. I am a self-taught web designer/developer that is currently living in Phoenix, Arizona. 
-              Originally from Salt Lake City, Utah. However, at the age of 21, I sought out new scenery, adventure, and climate, 
-              and moved down to the valley of the sun. My interest in web design and development grew after reading a book about 
-              the subject. It had me staying up all night reading. After that, I became consumed by the matter, learning from 
-              various resources when coming home from a full-time job. The main resource for learning was 
-              <a href="http://teamtreehouse.com/nicholasgreen" target="_blank">Team Treehouse</a>, learning from their videos, quizzes, and exercises.
-              My passion has only grown. The more subjects studied, the more my interest is peaked in the vast world of web 
-              design and development. While studying web design and development, Isites became more interested in design 
-              and started creating side projects as a way for me to express my creativity. 
+              After graduating with two associate degrees from college, I decided to not to go back to school and instead 
+              thought that I could do better at educating myself. In 2013, I moved down to Phoenix, Arizona 
+              by myself, away from the only place I had ever lived in. Not long after moving to Arizona, my journey in 
+              web design and development started as I taught myself how to create websites. Each and every night I 
+              would study and practice the material. Whether it was for a couple minutes,  an hour or two, every day I 
+              made the time possible. Reading as much material as I could on the subject, watching as many videos as I 
+              could, and of course good ole paper and pen helped me to create my own personal projects. After learning 
+              how to structure and build websites, I started venturing into design, specifically, my interests are graphic and 
+              interaction design. It was there these two passions came forward merging with each other and now leads to 
+              what I do now creating great looking websites and helping brands distinguish themselves from their respective 
+              competition. My goal is to use the skills I’ve learned to help you move your business forward into this golden age of 
+              technology. Using services like Wix and Squarespace are a great option. However, to put yourself above the rest 
+              you'll need a custom designed website. I will work with you, find out your goals, who your audience is, and work 
+              on implementing the best solution to drive more traffic. 
               </p>
           </div>
           <hr class="gold-bar small-2 large-1"><!-- .gold-bar -->
@@ -49,66 +45,6 @@
         </div>
       </div><!-- .row -->
   </section><!-- .beginning -->
-  <section class="middle">
-    <div class="row">
-      <hr class="gold-bar small-2 large-1"><!-- .gold-bar -->
-      <div class="small-12">
-        <h2 class="small-offset-1 medium-offset-2">The Middle</h2>
-        <p class="text-left small-offset-1 small-10 medium-offset-2 medium-7 large-6">
-          My name is Nicholas Green. I am a self-taught web designer/developer that is currently living in Phoenix, Arizona. 
-          Originally from Salt Lake City, Utah. However, at the age of 21, I sought out new scenery, adventure, and climate, 
-          and moved down to the valley of the sun. My interest in web design and development grew after reading a book about 
-          the subject. It had me staying up all night reading. After that, I became consumed by the matter, learning from 
-          various resources when coming home from a full-time job. The main resource for learning was 
-          <a href="http://teamtreehouse.com/nicholasgreen" target="_blank">Team Treehouse</a>, learning from their videos, quizzes, and exercises.
-          My passion has only grown. The more subjects studied, the more my interest is peaked in the vast world of web 
-          design and development. While studying web design and development, Isites became more interested in design 
-          and started creating side projects as a way for me to express my creativity. 
-          My name is Nicholas Green. I am a self-taught web designer/developer that is currently living in Phoenix, Arizona. 
-          Originally from Salt Lake City, Utah. However, at the age of 21, I sought out new scenery, adventure, and climate, 
-          and moved down to the valley of the sun. My interest in web design and development grew after reading a book about 
-          the subject. It had me staying up all night reading. After that, I became consumed by the matter, learning from 
-          various resources when coming home from a full-time job. The main resource for learning was 
-          <a href="http://teamtreehouse.com/nicholasgreen" target="_blank">Team Treehouse</a>, learning from their videos, quizzes, and exercises.
-          My passion has only grown. The more subjects studied, the more my interest is peaked in the vast world of web 
-          design and development. While studying web design and development, Isites became more interested in design 
-          and started creating side projects as a way for me to express my creativity. 
-          </p>
-      </div>
-      <hr class="gold-bar small-2 medium-1"><!-- .gold-bar -->
-      <div class="small-offset-3 small-6 medium-offset-4 medium-4 text-left">
-        <img class="beach-picture" src="img/beach.jpg" alt="PIcture of me at a Botanical Garden">
-      </div>
-    </div><!-- .row -->
-  </section><!-- .middle -->
-  <section class="end">
-    <div class="row">
-      <hr class="gold-bar small-2 medium-1"><!-- .gold-bar -->
-      <div class="small-12">
-        <h2 class="small-offset-1 medium-offset-3">End</h2>
-        <p class="text-left small-offset-1 small-10 medium-offset-3 medium-6 ">
-          My name is Nicholas Green. I am a self-taught web designer/developer that is currently living in Phoenix, Arizona. 
-          Originally from Salt Lake City, Utah. However, at the age of 21, I sought out new scenery, adventure, and climate, 
-          and moved down to the valley of the sun. My interest in web design and development grew after reading a book about 
-          the subject. It had me staying up all night reading. After that, I became consumed by the matter, learning from 
-          various resources when coming home from a full-time job. The main resource for learning was 
-          <a href="http://teamtreehouse.com/nicholasgreen" target="_blank">Team Treehouse</a>, learning from their videos, quizzes, and exercises.
-          My passion has only grown. The more subjects studied, the more my interest is peaked in the vast world of web 
-          design and development. While studying web design and development, Isites became more interested in design 
-          and started creating side projects as a way for me to express my creativity. 
-          My name is Nicholas Green. I am a self-taught web designer/developer that is currently living in Phoenix, Arizona. 
-          Originally from Salt Lake City, Utah. However, at the age of 21, I sought out new scenery, adventure, and climate, 
-          and moved down to the valley of the sun. My interest in web design and development grew after reading a book about 
-          the subject. It had me staying up all night reading. After that, I became consumed by the matter, learning from 
-          various resources when coming home from a full-time job. The main resource for learning was 
-          <a href="http://teamtreehouse.com/nicholasgreen" target="_blank">Team Treehouse</a>, learning from their videos, quizzes, and exercises.
-          My passion has only grown. The more subjects studied, the more my interest is peaked in the vast world of web 
-          design and development. While studying web design and development, Isites became more interested in design 
-          and started creating side projects as a way for me to express my creativity. 
-          </p>
-        </div>
-    </div><!-- .row -->
-  </section><!-- .middle -->
 
 <?php include("inc/contact.php"); ?>
   
