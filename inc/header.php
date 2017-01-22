@@ -4,6 +4,7 @@
     $last_name = "Green";
     $full_name = $first_name . " " . $last_name;
     $page_title = "$full_name - Web Developer & Graphic Designer - Tucson, Arizona";
+    $page = "index";
   ?>
 
 <!doctype html>
@@ -12,6 +13,7 @@
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
     <title><?php echo $page_title; ?></title>
     <!-- CSS -->
     <script src="https://use.typekit.net/phl2bvx.js"></script>

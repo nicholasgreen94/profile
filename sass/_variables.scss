@@ -10,11 +10,23 @@ $black-overlay: linear-gradient(rgba(97,86,86,.65), rgba(97,86,86,.65));
 $light-overlay: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3));
 $gold-overlay: linear-gradient(rgba(209, 149, 55, .65), rgba(209, 149, 55, .65));
 
-// Including the Butler & Kano font
-@include font-face("Butler", "css/fonts/Butler_Regular.otf");
-@include font-face("Butler", "css/fonts/Butler_Bold.otf");
-@include font-face("ElegantLux-Mager", "css/fonts/ElegantLux-Mager.otf");
+// Including the Born font & icomoon
 @include font-face("Born", "css/fonts/Born.otf");
+@include font-face("Born", "css/fonts/born-webfont.woff");
+@include font-face("Born", "css/fonts/born-webfont.woff2");
+@include font-face("Butler", "css/fonts/Butler_Black.otf");
+@include font-face("Butler", "css/fonts/Butler_bold.otf");
+$font-path: "css/fonts";
+
+$icon-medium: "\e900";
+$icon-instagram: "\ea92";
+$icon-twitter: "\ea96";
+$icon-dribbble: "\eaa7";
+$icon-behance: "\eaa8";
+$icon-github: "\eab0";
+
+
+
 
 // Fonts 
 $primary-font: "acta-display", "Butler", Georgia, Times, serif;

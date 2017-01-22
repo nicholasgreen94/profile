@@ -14,8 +14,8 @@
     <section class="services">
       <div class="row">
         <hr class="gold-bar small-2 medium-2 large-2">
-        <div class="medium-offset-4 medium-4">
-          <img src="img/me-polygon.jpg" alt="Picture of me">
+        <div class="text-center medium-offset-4 medium-4">
+          <img class="preview-photo" src="img/me-polygon.jpg" alt="Picture of me">
         </div>
         <hr class="gold-bar small-2 medium-1">
         <h2 class="creative small-offset-1 small-10 medium-offset-2 medium-8 text-center">I specialize in creating websites, logos, graphics, and icons.</h2>
@@ -25,9 +25,8 @@
     <section class="main-about">
       <div class="row">
         <hr class="gold-bar small-2">
-        <h2 class="text-left show-for-large large-offset-2">A little about myself</h2>
+        <h2 class="text-left small-offset-1 large-offset-2">A little about myself</h2>
         <div class="small-12 large-offset-2 large-5 text-left my-about">
-          <h2 class="hide-for-large small-offset-1">A little about myself</h2>
           <p class="text-left small-offset-1 small-10 medium-7 large-offset-0 large-12">
             Hi there, as stated above my name is Nicholas Green, but I also go by Nick. I’m a freelance web designer 
             and developer from the Salt Lake Valley and now living in Tucson, Arizona after a stop in Phoenix for a 
@@ -63,7 +62,7 @@
             <hr class="small-4">
             <p class="text-left small-offset-1 small-10 medium-offset-2 medium-8">
               A collection of some websites that I designed and created. All the sites shown are responsive for mobile 
-              and look great on any device. I list out what the project is about, who it resonates to and the reason for 
+              and look great on any device. I list out what the project is about, who it resonates to. and the reason for 
               designing the site the way it is, mentioning as well the coding languages behind the site with a preview 
               of what the landing page looks like. 
             </p>

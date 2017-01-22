@@ -1,73 +1,72 @@
+//> Icons 
+@font-face {
+  font-family: 'icomoon';
+  src:  url('#{$font-path}/icomoon.eot?z9axk5');
+  src:  url('#{$font-path}/icomoon.eot?z9axk5#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?z9axk5') format('truetype'),
+    url('#{$font-path}/icomoon.woff?z9axk5') format('woff'),
+    url('#{$font-path}/icomoon?z9axk5#icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
 
-[data-icon]:before {
-  font-family: "outlined-iconset" !important;
-  content: attr(data-icon);
-  font-style: normal !important;
-  font-weight: normal !important;
-  font-variant: normal !important;
-  text-transform: none !important;
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
   speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
   line-height: 1;
+  color: $black;
+  
+  
+  /* Enable Ligatures ================ */
+  letter-spacing: 0;
+  -webkit-font-feature-settings: "liga";
+  -moz-font-feature-settings: "liga=1";
+  -moz-font-feature-settings: "liga";
+  -ms-font-feature-settings: "liga" 1;
+  font-feature-settings: "liga";
+  -webkit-font-variant-ligatures: discretionary-ligatures;
+  font-variant-ligatures: discretionary-ligatures;
+
+  /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  &:hover {
+    color: $gold;
+  }
 }
 
-[class^="icon-"]:before,
-[class*=" icon-"]:before {
-  font-family: "outlined-iconset" !important;
-  font-style: normal !important;
-  font-weight: normal !important;
-  font-variant: normal !important;
-  text-transform: none !important;
-  speak: none;
-  line-height: 1;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.icon-medium {
+  &:before {
+    content: $icon-medium;
+  }
 }
-
-.icon-agenda:before {
-  content: "\e086";
+.icon-instagram {
+  &:before {
+    content: $icon-instagram;
+  }
 }
-
-.icon-tv-monitor:before {
-  content: "\e074";
+.icon-twitter {
+  &:before {
+    content: "\ea96";
+  }
 }
-
-.icon-portable-pc:before {
-  content: "\e054";
+.icon-dribbble {
+  &:before {
+    content: $icon-dribbble;
+  }
 }
-
-.icon-mail:before {
-  content: "\e038";
+.icon-behance {
+  &:before {
+    content: $icon-behance;
+  }
 }
-
-.icon-paper-pen:before {
-  content: "\e04d";
-}
-
-.icon-pen-pencil-ruler:before {
-  content: "\e050";
-}
-
-.icon-website-1:before {
-  content: "\e07f";
-}
-.icon-website-2:before {
-  content: "\e080";
-}
-
-.icon-pencil-ruler:before {
-  content: "\e052";
-}
-
-.icon {
-  color: $gold;
-  height: 4rem;
-  font-size: $secondary-font-size;
-}
-
-.icon-mail {
-  font-size: $fourth-font-size;
-  position: relative;
-  top: 5px;
+.icon-github {
+  &:before {
+    content: $icon-github;
+  }
 }

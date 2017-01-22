@@ -19,11 +19,11 @@
       <hr class="gold-bar small-2 medium-1"><!-- .gold-bar -->
       <div class="row">
         <div class="about-information">
-          <div class="small-12 beginning-about-p">
-            <h2 class="small-offset-1 medium-offset-2">Beginnings</h2>
-            <p class="text-left small-offset-1 small-10 medium-offset-2 medium-7 large-offset-2 large-6">
+          <div class="beginning-about-p">
+            <h2>Beginnings</h2>
+            <p class="text-left">
               After graduating with two associate degrees from college, I decided to not to go back to school and instead 
-              thought that I could do better at educating myself. In 2013, I moved down to Phoenix, Arizona 
+              thought that I could do better at educating myself. In 2013, moved down to Phoenix, Arizona 
               by myself, away from the only place I had ever lived in. Not long after moving to Arizona, my journey in 
               web design and development started as I taught myself how to create websites. Each and every night I 
               would study and practice the material. Whether it was for a couple minutes,  an hour or two, every day I 
@@ -40,8 +40,8 @@
           </div>
           <hr class="gold-bar small-2 large-1"><!-- .gold-bar -->
         </div><!-- .about-information -->
-        <div class="small-offset-3 small-6 medium-offset-6 medium-4 text-left">
-          <img class="garden-picture" src="img/garden-me-box.jpg" alt="PIcture of me at a Botanical Garden">
+        <div class="small-offset-3 small-6 medium-offset-4 medium-4 text-center">
+          <img class="backpack-picture" src="img/me-backpack.jpg" alt="PIcture of me at a Botanical Garden">
         </div>
       </div><!-- .row -->
   </section><!-- .beginning -->

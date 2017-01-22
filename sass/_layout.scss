@@ -183,9 +183,10 @@ img {
 // .web-project + .design-project
 /////////////////////////////////////
 
+#web-page,
 #design-page {
   .hero {
-    height: 188px;
+    height: 214px;
     @media only screen and (min-width: $medium-query) {
       height: 374px;
     }
@@ -320,13 +321,13 @@ img {
     .gold-bar {
       position: relative;
       top: -5em;
-      right: 16em;
+      right: 14em;
     }
   }
   .about-information {
     @media only screen and (min-width: $medium-query) {
       .gold-bar {
-        @include rotate(53deg);
+        @include rotate(90deg);
         position: relative;
         top: -5em;
         right: 12em;
@@ -336,39 +337,31 @@ img {
         }
       }
     }
-    @media only screen and (min-width: $large-query) {
-      .gold-bar {
-        @include rotate(53deg);
-        position: relative;
-        top: -5em;
-        right: 12em;
-        &:last-of-type {
-          top: 2.5em;
-          right: 0;
-        }
-      }
-      .beginning-about-p {
-        position: relative;
-        top: -1em;
+    .beginning-about-p {
+      margin: 0 auto;
+      padding: 0 6%;
+      width: 24em;
+      position: relative;
+      top: -1em;
+      @media only screen and (min-width: $medium-query) {
+        margin: 0 auto;
+        padding: 0;
+        width: 28em;
       }
     }
   }// .about-information
 }// .beginning
 
-.garden-picture,
-.beach-picture {
-  width: 100%;
+.backpack-picture { 
+  width: 200px;
   @media only screen and (min-width: $medium-query) {
-    margin: 4em 0;
-    width: 90%;
+    margin-top: 8em;
+    width: 300px;
   }
-  @media only screen and (min-width: $large-query) {
-    width: 80%;
-  }
-}// .garden-picture
+}// .backpack-picture
 
-.garden-picture {
-  box-shadow: .5em .5em 0 $gold;
+.backpack-picture {
+  box-shadow: .5em .5em 0 $black;
 }
 
 .beach-picture {
