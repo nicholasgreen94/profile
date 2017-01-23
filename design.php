@@ -16,14 +16,28 @@
     <hr class="first-gold-bar gold-bar hide-for-small-only medium-1"><!-- .gold-bar -->
     <div class="row expanded">
       <div class="small-12">
+        <article class="design-project text-center" id="tl-form">
+          <div class="small-12">
+              <img class="preview-photo" src="img/form.jpg" alt="TL Form">
+              <h3>TL Company</h3>
+              <p class="text-left small-offset-2 small-8 medium-offset-2 medium-8 large-offset-3 large-6">
+                TL, a mockup of a form for a fictitious company. Dabbling into User Experience and User Interface, adding a little personal touch when logging in with that person’s first name. While a simple logo reminds people what website they are on.
+              </p>
+            <a class="btn" href="img/form.jpg" target="_blank">View</a>
+          </div>
+        </article>
+      </div>
+      <hr class="gold-bar small-6">
+    </div><!-- .row -->
+    <div class="row expanded">
+      <div class="small-12">
         <article class="design-project text-center" id="sky">
           <div class="small-12">
-              <img class="preview-photo" src="img/sky.jpg" alt="Triangle with sky in the background"/>
+              <img class="preview-photo" src="img/sky.jpg" alt="Triangle with sky and mountains in the background"/>
               <h3>Sky Triangle</h3>
               <p class="text-left small-offset-2 small-8 medium-offset-2 medium-8 large-offset-3 large-6">
-                But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness.
-              </p>
-            <a class="btn" href="img/sky.jpg">View</a>
+                Modernism meets nature. This is an experiment in Photoshop done by mixing modern elements and my favorite shape, a triangle. I was inspired by the beautiful mountains in this photo found on Unsplash.               </p>
+            <a class="btn" href="img/sky.jpg" target="_blank">View</a>
           </div>
         </article>
       </div>
@@ -34,31 +48,15 @@
       <div class="small-12">
         <article class="design-project text-center" id="glacier">
           <div class="small-12">
-            <img class="preview-photo" src="img/Glacier_Brew.jpg" alt="Glacier Brew ad"/>
+            <img class="preview-photo" src="img/glacier_brew.jpg" alt="Glacier Brew ad"/>
               <h3>Glacier Brew</h3>
               <p class="text-left small-offset-2 small-8 medium-offset-2 medium-8 large-offset-3 large-6">
-                But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness.
-              </p>
-              <a class="btn" href="img/Glacier_Brew.jpg">View</a>
+                Glacier Brew will be a thing one day, it’s not your ordinary regular cold brew. No this uses the freshest water on the planet, water from glaciers. No longer using tap or filter water this changes the way you have your cold brew coffee.              </p>
+              <a class="btn" href="img/glacier_brew.jpg" target="_blank">View</a>
             </div>
           </article>
         </div>
-        <hr class="gold-bar small-6">
       </div><!-- .design-project -->
-      <div class="row expanded">
-        <div class="small-12">
-          <article class="design-project text-center" id="polygon">
-            <div class="small-12">
-                <img class="preview-photo" src="img/polygon.jpg" alt="Experiment of Polygons"/>
-                <h3>Polygon</h3>
-                <p class="text-left small-offset-2 small-8 medium-offset-2 medium-8 large-offset-3 large-6">
-                  But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness.
-                </p>
-              <a class="btn" href="img/polygon.jpg">View</a>
-            </div>
-          </article>
-        </div>
-      </div><!-- .row -->
   </section><!-- .design-work -->  
   
   

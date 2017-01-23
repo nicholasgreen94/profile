@@ -3,7 +3,7 @@ $(function() {
   var $upArrow = $(".up-arrow");
   
   $upArrow.on("click", function(e) {
-    $("#top").velocity("scroll", {duration: 1500, easing: "ease-in"});
+    $("#top").velocity("scroll", {duration: 1200, easing: "ease-in"});
   });
   
   

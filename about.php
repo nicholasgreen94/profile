@@ -20,7 +20,7 @@
       <div class="row">
         <div class="about-information">
           <div class="beginning-about-p">
-            <h2>Beginnings</h2>
+            <h2>Who I am</h2>
             <p class="text-left">
               After graduating with two associate degrees from college, I decided to not to go back to school and instead 
               thought that I could do better at educating myself. In 2013, moved down to Phoenix, Arizona 

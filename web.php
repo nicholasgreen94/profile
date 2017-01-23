@@ -31,7 +31,7 @@
                 the logo along with the category name.
               </p>
               <p><span class="created">Created With:</span> HTML, CSS, SASS, JavaScript, jQuery</p>
-            <a class="btn" href="#" target="_blank">View</a>
+            <a class="btn" href="https://dapper-mens.herokuapp.com/index.html" target="_blank">View</a>
           </div>
         </article>
       </div><!-- .web -->
@@ -51,7 +51,7 @@
                 it’s current needs with room to grow.
               </p>
               <p><span class="created">Created With:</span> HTML, CSS, SASS</p>
-            <a class="btn" href="#" target="_blank">View</a>
+            <a class="btn" href="https://aerom.herokuapp.com/" target="_blank">View</a>
           </div>
         </article>
       </div><!-- .web -->
@@ -70,7 +70,7 @@
                 modern feel.
               </p>
               <p><span class="created">Created With:</span> HTML, CSS, JavaScript, jQuery</p>
-            <a class="btn" href="#" target="_blank">View</a>
+            <a class="btn" href="https://digim-marketing.herokuapp.com/" target="_blank">View</a>
           </div>
         </article>
       </div><!-- .web -->

@@ -231,30 +231,25 @@ li {
   }
 }
 
-/* line 104, ../sass/_typography.scss */
-.active {
-  color: #d19537;
-}
-
-/* line 110, ../sass/_typography.scss */
+/* line 106, ../sass/_typography.scss */
 .menu a,
 #contact a {
   display: inline-block;
-  -moz-transition: 0.2s;
-  -o-transition: 0.2s;
-  -webkit-transition: 0.2s;
-  transition: 0.2s;
+  -moz-transition: 0.24s;
+  -o-transition: 0.24s;
+  -webkit-transition: 0.24s;
+  transition: 0.24s;
   -moz-transition-timing-function: ease-in-out;
   -o-transition-timing-function: ease-in-out;
   -webkit-transition-timing-function: ease-in-out;
   transition-timing-function: ease-in-out;
 }
-/* line 114, ../sass/_typography.scss */
+/* line 110, ../sass/_typography.scss */
 .menu a:hover,
 #contact a:hover {
   color: #d19537;
 }
-/* line 117, ../sass/_typography.scss */
+/* line 113, ../sass/_typography.scss */
 .menu a:active, .menu a:focus, .menu a:hover,
 #contact a:active,
 #contact a:focus,
@@ -262,11 +257,11 @@ li {
   color: #d19537;
 }
 
-/* line 125, ../sass/_typography.scss */
+/* line 121, ../sass/_typography.scss */
 .hero {
   text-align: left;
 }
-/* line 127, ../sass/_typography.scss */
+/* line 123, ../sass/_typography.scss */
 .hero span {
   display: inline-block;
   font-family: "acta-display", "Butler", Georgia, Times, serif;
@@ -274,43 +269,43 @@ li {
   font-weight: 700;
 }
 @media only screen and (min-width: 40em) {
-  /* line 127, ../sass/_typography.scss */
+  /* line 123, ../sass/_typography.scss */
   .hero span {
     font-size: 2.25em;
     line-height: 1;
   }
 }
 
-/* line 140, ../sass/_typography.scss */
+/* line 136, ../sass/_typography.scss */
 .services h2 {
   padding-top: 0;
 }
 @media only screen and (min-width: 40em) {
-  /* line 140, ../sass/_typography.scss */
+  /* line 136, ../sass/_typography.scss */
   .services h2 {
     padding-top: 2em;
   }
 }
 
-/* line 155, ../sass/_typography.scss */
+/* line 151, ../sass/_typography.scss */
 .main-about .columns,
 .about .columns,
 #contact .columns {
   padding: 0;
 }
-/* line 158, ../sass/_typography.scss */
+/* line 154, ../sass/_typography.scss */
 .main-about h2,
 .about h2,
 #contact h2 {
   padding-top: .5em;
 }
-/* line 161, ../sass/_typography.scss */
+/* line 157, ../sass/_typography.scss */
 .main-about p,
 .about p,
 #contact p {
   font-weight: 400;
 }
-/* line 164, ../sass/_typography.scss */
+/* line 160, ../sass/_typography.scss */
 .main-about a,
 .about a,
 #contact a {
@@ -321,78 +316,78 @@ li {
   font-weight: 700;
   margin-bottom: 24px;
   text-transform: uppercase;
-  -moz-transition: 0.2s;
-  -o-transition: 0.2s;
-  -webkit-transition: 0.2s;
-  transition: 0.2s;
+  -moz-transition: 0.32s;
+  -o-transition: 0.32s;
+  -webkit-transition: 0.32s;
+  transition: 0.32s;
   -moz-transition-timing-function: ease-in-out;
   -o-transition-timing-function: ease-in-out;
   -webkit-transition-timing-function: ease-in-out;
   transition-timing-function: ease-in-out;
 }
 @media only screen and (min-width: 64em) {
-  /* line 164, ../sass/_typography.scss */
+  /* line 160, ../sass/_typography.scss */
   .main-about a,
   .about a,
   #contact a {
     margin-bottom: 0;
   }
 }
-/* line 177, ../sass/_typography.scss */
+/* line 173, ../sass/_typography.scss */
 .main-about a:hover,
 .about a:hover,
 #contact a:hover {
   color: #d19537;
 }
 
-/* line 183, ../sass/_typography.scss */
+/* line 179, ../sass/_typography.scss */
 .created {
   font-weight: 700;
   text-transform: none;
 }
 
-/* line 194, ../sass/_typography.scss */
+/* line 190, ../sass/_typography.scss */
 .web p,
 .design p {
   color: #fff;
   font-weight: 400;
   padding: 8px 0 1.5em;
 }
-/* line 199, ../sass/_typography.scss */
+/* line 195, ../sass/_typography.scss */
 .web a,
 .design a {
   color: #fff;
-  -moz-transition: 0.2s;
-  -o-transition: 0.2s;
-  -webkit-transition: 0.2s;
-  transition: 0.2s;
+  -moz-transition: 0.32s;
+  -o-transition: 0.32s;
+  -webkit-transition: 0.32s;
+  transition: 0.32s;
   -moz-transition-timing-function: ease-in-out;
   -o-transition-timing-function: ease-in-out;
   -webkit-transition-timing-function: ease-in-out;
   transition-timing-function: ease-in-out;
 }
-/* line 203, ../sass/_typography.scss */
+/* line 199, ../sass/_typography.scss */
 .web a:hover,
 .design a:hover {
   color: #d19537;
 }
-/* line 206, ../sass/_typography.scss */
+/* line 202, ../sass/_typography.scss */
 .web a:active, .web a:focus,
 .design a:active,
 .design a:focus {
   color: #d19537;
 }
 
-/* line 215, ../sass/_typography.scss */
+/* line 211, ../sass/_typography.scss */
 .design a:hover {
   color: #413b3b;
 }
-/* line 218, ../sass/_typography.scss */
+/* line 214, ../sass/_typography.scss */
 .design a:active, .design a:focus {
   color: #413b3b;
 }
 
-/* line 233, ../sass/_typography.scss */
+/* line 229, ../sass/_typography.scss */
 .web-work .web-project h3,
 .web-work .design-project h3,
 .design-work .web-project h3,
@@ -400,7 +395,7 @@ li {
   color: #413b3b;
 }
 @media only screen and (min-width: 40em) {
-  /* line 233, ../sass/_typography.scss */
+  /* line 229, ../sass/_typography.scss */
   .web-work .web-project h3,
   .web-work .design-project h3,
   .design-work .web-project h3,
@@ -408,7 +403,7 @@ li {
     font-size: 2.25em;
   }
 }
-/* line 240, ../sass/_typography.scss */
+/* line 236, ../sass/_typography.scss */
 .web-work .web-project p,
 .web-work .design-project p,
 .design-work .web-project p,
@@ -416,29 +411,29 @@ li {
   color: #413b3b;
   font-weight: 400;
 }
-/* line 244, ../sass/_typography.scss */
+/* line 240, ../sass/_typography.scss */
 .web-work .web-project a,
 .web-work .design-project a,
 .design-work .web-project a,
 .design-work .design-project a {
   color: #413b3b;
-  -moz-transition: 0.2s;
-  -o-transition: 0.2s;
-  -webkit-transition: 0.2s;
-  transition: 0.2s;
+  -moz-transition: 0.32s;
+  -o-transition: 0.32s;
+  -webkit-transition: 0.32s;
+  transition: 0.32s;
   -moz-transition-timing-function: ease-in-out;
   -o-transition-timing-function: ease-in-out;
   -webkit-transition-timing-function: ease-in-out;
   transition-timing-function: ease-in-out;
 }
-/* line 248, ../sass/_typography.scss */
+/* line 244, ../sass/_typography.scss */
 .web-work .web-project a:hover,
 .web-work .design-project a:hover,
 .design-work .web-project a:hover,
 .design-work .design-project a:hover {
   color: #d19537;
 }
-/* line 251, ../sass/_typography.scss */
+/* line 247, ../sass/_typography.scss */
 .web-work .web-project a:active, .web-work .web-project a:focus,
 .web-work .design-project a:active,
 .web-work .design-project a:focus,
@@ -449,47 +444,40 @@ li {
   color: #d19537;
 }
 
-/* line 264, ../sass/_typography.scss */
+/* line 260, ../sass/_typography.scss */
 #contact a {
   color: #413b3b;
 }
-/* line 268, ../sass/_typography.scss */
+/* line 264, ../sass/_typography.scss */
 #contact .social-media li {
   display: inline-block;
   margin: 0 3%;
 }
-/* line 272, ../sass/_typography.scss */
+/* line 268, ../sass/_typography.scss */
 #contact .social-media a {
   color: #413b3b;
   text-transform: none;
 }
-/* line 275, ../sass/_typography.scss */
+/* line 271, ../sass/_typography.scss */
 #contact .social-media a img {
   height: 20px;
   max-width: 100%;
   width: 20px;
 }
 
-/* line 292, ../sass/_typography.scss */
+/* line 288, ../sass/_typography.scss */
 #about .about h2 {
   padding-top: 0;
 }
-/* line 295, ../sass/_typography.scss */
+/* line 291, ../sass/_typography.scss */
 #about .about a {
   font-size: 16px;
   font-weight: 400;
   margin-bottom: 0;
   text-transform: none;
 }
-/* line 300, ../sass/_typography.scss */
-#about .about a:hover {
-  -moz-transform: scale(1, 1);
-  -ms-transform: scale(1, 1);
-  -webkit-transform: scale(1, 1);
-  transform: scale(1, 1);
-}
 
-/* line 311, ../sass/_typography.scss */
+/* line 304, ../sass/_typography.scss */
 .main-footer .up-arrow {
   color: #413b3b;
   display: inline-block;
@@ -500,11 +488,11 @@ li {
   -webkit-transition: 0.32s;
   transition: 0.32s;
 }
-/* line 317, ../sass/_typography.scss */
+/* line 310, ../sass/_typography.scss */
 .main-footer .up-arrow:hover, .main-footer .up-arrow:visited, .main-footer .up-arrow:focus {
   color: #d19537;
 }
-/* line 322, ../sass/_typography.scss */
+/* line 315, ../sass/_typography.scss */
 .main-footer .up-arrow:hover {
   cursor: pointer;
 }
@@ -1035,16 +1023,11 @@ img {
 }
 
 /* line 2, ../sass/_images.scss */
-.logo {
-  height: 32px;
-}
-
-/* line 7, ../sass/_images.scss */
 .preview-photo {
   width: 256px;
 }
 @media only screen and (min-width: 40em) {
-  /* line 7, ../sass/_images.scss */
+  /* line 2, ../sass/_images.scss */
   .preview-photo {
     width: 324px;
   }
@@ -1080,38 +1063,42 @@ img {
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  -moz-transition: 0.32s;
+  -o-transition: 0.32s;
+  -webkit-transition: 0.32s;
+  transition: 0.32s;
 }
-/* line 38, ../sass/_icons.scss */
+/* line 39, ../sass/_icons.scss */
 [class^="icon-"]:hover, [class*=" icon-"]:hover {
   color: #d19537;
 }
 
-/* line 44, ../sass/_icons.scss */
+/* line 45, ../sass/_icons.scss */
 .icon-medium:before {
   content: "";
 }
 
-/* line 49, ../sass/_icons.scss */
+/* line 50, ../sass/_icons.scss */
 .icon-instagram:before {
   content: "";
 }
 
-/* line 54, ../sass/_icons.scss */
+/* line 55, ../sass/_icons.scss */
 .icon-twitter:before {
   content: "\ea96";
 }
 
-/* line 59, ../sass/_icons.scss */
+/* line 60, ../sass/_icons.scss */
 .icon-dribbble:before {
   content: "";
 }
 
-/* line 64, ../sass/_icons.scss */
+/* line 65, ../sass/_icons.scss */
 .icon-behance:before {
   content: "";
 }
 
-/* line 69, ../sass/_icons.scss */
+/* line 70, ../sass/_icons.scss */
 .icon-github:before {
   content: "";
 }

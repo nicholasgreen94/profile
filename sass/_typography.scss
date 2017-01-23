@@ -101,15 +101,11 @@ li {
   }
 }
 
-.active {
-  color: $gold;
-}
-
 .menu,
 #contact {
   a {
     display: inline-block;
-    @include transition(.2s);
+    @include transition(.24s);
     @include transition-timing-function(ease-in-out);
     &:hover {
       color: $gold;
@@ -169,7 +165,7 @@ li {
     font-weight: 700;
     margin-bottom: $margin * 12;
     text-transform: uppercase;
-    @include transition(.2s);
+    @include transition(.32s);
     @include transition-timing-function(ease-in-out);
     @media only screen and (min-width: $large-query) {
       margin-bottom: 0;
@@ -198,7 +194,7 @@ li {
   }
   a {
     color: $white;
-    @include transition(.2s);
+    @include transition(.32s);
     @include transition-timing-function(ease-in-out);
     &:hover {
       color: $gold;
@@ -243,7 +239,7 @@ li {
     }
     a {
       color: $black;
-      @include transition(.2s);
+      @include transition(.32s);
       @include transition-timing-function(ease-in-out);
       &:hover {
         color: $gold;
@@ -297,9 +293,6 @@ li {
       font-weight: 400;
       margin-bottom: 0;
       text-transform: none;
-      &:hover {
-        @include scale(1);
-      }
     }
   }
 }

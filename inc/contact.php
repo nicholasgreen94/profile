@@ -4,7 +4,7 @@
     <hr class="gold-bar hide-for-small-only medium-2 large-1">
     <article class="contact_section text-left">
       <h2 class="small-offset-2 medium-offset-1">Let's get in touch</h2>
-      <p class="small-offset-2 small-8 medium-offset-1 medium-8 large-offset-1 large-5">
+      <p class="small-offset-2 small-8 medium-offset-1 medium-6 large-offset-1 large-5">
         I’m currently available for any type of freelance projects whether it be a website, logo, print, poster, 
         branding, etc. If you have a project in mind, let me know and we’ll create amazing things. 
         Or if you want to say hi or collaborate, then let's get in contact with each other.
