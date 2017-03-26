@@ -11,11 +11,18 @@ $light-overlay: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.
 $gold-overlay: linear-gradient(rgba(209, 149, 55, .65), rgba(209, 149, 55, .65));
 
 // Including the Born font & icomoon
-@include font-face("Born", "css/fonts/Born.otf");
-@include font-face("Born", "css/fonts/born-webfont.woff");
-@include font-face("Born", "css/fonts/born-webfont.woff2");
+@include font-face("born", "css/fonts/Born.otf");
+@font-face{  // Adding Born font
+	font-family: 'born';
+	src: url('fonts/born.eot');
+	src: url('fonts/born.eot?#iefix') format('embedded-opentype'),
+	     url('fonts/born-webfont.woff') format('woff'),
+	     url('fonts/bornwebfont.ttf') format('truetype'),
+	     url('fonts/born.svg#webfont') format('svg');
+}
 @include font-face("Butler", "css/fonts/Butler_Black.otf");
-@include font-face("Butler", "css/fonts/Butler_bold.otf");
+@include font-face("Butler", "css/fonts/Butler_Bold.otf");
+
 $font-path: "css/fonts";
 
 $icon-medium: "\e900";
@@ -30,7 +37,7 @@ $icon-github: "\eab0";
 
 // Fonts 
 $primary-font: "acta-display", "Butler", Georgia, Times, serif;
-$secondary-font: "Born", Helvetica, verdana, sans-serif;
+$secondary-font: /*"born",*/ "Butler", Georgia, Times, serif;
 
 // Font sizes 
 $primary-heading: 5.625em;

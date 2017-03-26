@@ -1,0 +1,57 @@
+
+#services {
+  position: relative;
+  top: -132px;  
+  .preview-photo {
+    float: right;
+    margin-right: 4em;
+  }
+  #statement {
+    font-size: 3.14em; // Cause you know, pi
+    padding-top: 2em;
+    letter-spacing: 1px;
+    line-height: 1.2;
+    text-align: center;
+  }// #statement
+}
+
+  #main-about {
+    position: relative;
+    left: 10%;
+    .column {
+      margin: 0 auto;
+    } // .columns
+    .my-about {
+      a {
+        font-family: $primary-font;
+        font-weight: 700;
+        transition: .24s ease-out;
+        &:hover {
+          color: $gold;
+        }
+      }
+      .read-more {
+        display: inline-block;
+        font-size: 1.5em;
+        margin-top: 1em;
+      }// .read-more
+    }// .my-about
+    .about-image-overlay {
+      background: $gold;
+      opacity: .5;
+      height: 235px;
+      width: 235px;  
+      z-index: 20;
+      position: relative;
+      top: -335px;
+      left: 185px;
+    }
+    .about-image {
+      height: 35%;
+      opacity: 1;
+      width: 35%;
+      position: relative;
+      top: -487px;
+      left: 235px;
+    }
+  } // #main-about

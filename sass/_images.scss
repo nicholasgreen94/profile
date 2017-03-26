@@ -1,7 +1,6 @@
 
 .preview-photo {
-  width: 256px;
-  @media only screen and (min-width: $medium-query) {
-    width: 324px;
-  }
+  margin: 0 auto;
+  width: 50%;
 }
+

@@ -13,7 +13,6 @@
   </section><!-- .hero -->
   <!-- design-work -->
   <section class="design-work">
-    <hr class="first-gold-bar gold-bar hide-for-small-only medium-1"><!-- .gold-bar -->
     <div class="row expanded">
       <div class="small-12">
         <article class="design-project text-center" id="tl-form">

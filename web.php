@@ -17,7 +17,6 @@
   </section><!-- .hero -->
   <!-- .web-work -->
   <section class="web-work" data-equalizer data-equalize-on="small">
-    <hr class="first-gold-bar gold-bar hide-for-small-only medium-1"><!-- .gold-bar -->
     <div class="row expanded">
       <div class="small-12">
         <article class="web-project text-center" id="dapper">

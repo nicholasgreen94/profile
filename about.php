@@ -21,27 +21,14 @@
         <div class="about-information">
           <div class="beginning-about-p">
             <h2>Who I am</h2>
-            <p class="text-left">
-              After graduating with two associate degrees from college, I decided to not to go back to school and instead 
-              thought that I could do better at educating myself. In 2013, moved down to Phoenix, Arizona 
-              by myself, away from the only place I had ever lived in. Not long after moving to Arizona, my journey in 
-              web design and development started as I taught myself how to create websites. Each and every night I 
-              would study and practice the material. Whether it was for a couple minutes,  an hour or two, every day I 
-              made the time possible. Reading as much material as I could on the subject, watching as many videos as I 
-              could, and of course good ole paper and pen helped me to create my own personal projects. After learning 
-              how to structure and build websites, I started venturing into design, specifically, my interests are graphic and 
-              interaction design. It was there these two passions came forward merging with each other and now leads to 
-              what I do now creating great looking websites and helping brands distinguish themselves from their respective 
-              competition. My goal is to use the skills I’ve learned to help you move your business forward into this golden age of 
-              technology. Using services like Wix and Squarespace are a great option. However, to put yourself above the rest 
-              you'll need a custom designed website. I will work with you, find out your goals, who your audience is, and work 
-              on implementing the best solution to drive more traffic. 
-              </p>
+            <p class="text-left">I’m a millennial but described as being an old soul. Yep, that’s right, a millennial with an old soul, what does that mean? Well, I prefer vinyl records over headphones, reading paper books versus reading them over an electronic device (not to mention my mini library), preferring to listen to the radio rather than watching Netflix, or latest shows on television, listen more to jazz and classical music than the latest pop album, and of course, have multiple notebooks of paper over multiple notes on my phone or papers typed on my computer. This doesn’t mean that I am anti-technology, it’d be incredibly hard to be a web designer and developer without a computer to work on, preferably a Macbook Pro.</p> 
+            <p class="text-left">Growing up I was told by multiple people that I was not creative and the sad thing was I believed it. Many years of my life I walked around thinking I was not a creative person and never would be; however,  after a long personal and ongoing struggle of not thinking I was creative, my mindset changed and started to prove myself wrong. It turned out I was creative and the harder I worked at being creative the more creative I got. I discovered web design and development which is my biggest passion and best creative outlet. It’s a craft and put careful thought into each sketch, pixel, and line of code.</p>
+            <p class="text-left">I taught myself how to code websites after taking a class online in HTML (Hyper Text Markup Language) shortly after moving down to Arizona in 2013 and from that a whole new world opened itself. Along the way were the usual struggles one would expect, working a full-time job, planning a  wedding, however after long nights the struggle paid off and after learning to code, design came next. I studied user interaction, user experience, and graphic design, there’s something about using a website or an app and realizing how beautiful the design is. The ease of how easy it is to use, that’s the craft that I try to make every time I work.</p>
+            <p class="text-left">While I do love designing and developing, my other passions and expressions of creativity is photography, mostly photos of coffee shops, bookstores, nature and photos for mine and my wife’s blog. <a class="vnstyle" href="http://vandnstyle.co/" target="_blank">V&amp;N Style</a>. Fashion, another passion, reading fiction and nonfiction, writing short stories and journaling, and traveling to places we’ve never been. Let’s connect and create amazing things!</p>
           </div>
-          <hr class="gold-bar small-2 large-1"><!-- .gold-bar -->
         </div><!-- .about-information -->
-        <div class="small-offset-3 small-6 medium-offset-4 medium-4 text-center">
-          <img class="backpack-picture" src="img/me-backpack.jpg" alt="PIcture of me at a Botanical Garden">
+        <div class="small-offset-1 small-10">
+          <img class="backpack-picture" src="img/hero_image.jpg" alt="PIcture of me at a Botanical Garden">
         </div>
       </div><!-- .row -->
   </section><!-- .beginning -->

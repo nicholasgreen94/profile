@@ -1,0 +1,36 @@
+
+#top {
+  background: $gold;
+  #main-nav {
+    text-align: right;
+  }
+  .menu {
+    display: block;
+    text-align: center;
+    @media only screen and (min-width: $medium-query) {
+      text-align: right;
+    }
+    li {
+      display: inline-block;
+      margin: .25em;
+      a {
+        color: $white;
+        display: inline-block;
+        font-family: $primary-font;
+        font-size: 1em;
+        padding: .5em .25em;
+        @media only screen and (min-width: $medium-query) {
+        font-size: $primary-font-size;
+        padding: .5em;
+        }
+      }
+    }
+    @media only screen and (min-width: $large-query) {
+      .first-nav-item {
+        margin-left: 0;
+        padding-left: 0;
+      }
+    }
+  }
+
+}

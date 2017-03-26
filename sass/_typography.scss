@@ -16,6 +16,10 @@ p {
 
 a {
   color: $black;
+  text-decoration: none;
+  &:hover {
+    cursor: pointer;
+  }
 }
 
 hr {
@@ -31,6 +35,7 @@ h4 {
 }
 
 h1 {
+  letter-spacing: 1px;
   padding-top: .5em;
   @include adjust-font-size-to($secondary-font-size); // 3.375 * 16px = 54px
   @media only screen and (min-width: $medium-query) {
@@ -69,38 +74,6 @@ li {
   text-indent: 1em;
 }
 
-
-/////////////////
-// navigation
-////////////////
-
-.menu {
-  display: block;
-  text-align: center;
-  @media only screen and (min-width: $medium-query) {
-    text-align: right;
-  }
-  li {
-    display: inline-block;
-    margin: .25em;
-    a {
-      font-family: $secondary-font;
-      font-size: 14px;
-      padding: .5em .25em;
-      @media only screen and (min-width: $medium-query) {
-      font-size: $primary-font-size;
-      padding: .5em;
-      }
-    }
-  }
-  @media only screen and (min-width: $large-query) {
-    .first-nav-item {
-      margin-left: 0;
-      padding-left: 0;
-    }
-  }
-}
-
 .menu,
 #contact {
   a {
@@ -119,6 +92,7 @@ li {
 }
 
 .hero {
+  color: $white;
   text-align: left;
   span {
     display: inline-block;
@@ -128,15 +102,6 @@ li {
     @media only screen and (min-width: $medium-query) {
       font-size: $third-font-size;
       line-height: 1;
-    }
-  }
-}
-
-.services {
-  h2 {
-    padding-top: 0;
-    @media only screen and (min-width: $medium-query) {
-      padding-top: 2em;
     }
   }
 }
@@ -160,11 +125,10 @@ li {
   a {
     color: $black;
     display: inline-block;
-    font-family: $secondary-font;
+    font-family: $primary-font;
     font-size: $fourth-font-size;
     font-weight: 700;
     margin-bottom: $margin * 12;
-    text-transform: uppercase;
     @include transition(.32s);
     @include transition-timing-function(ease-in-out);
     @media only screen and (min-width: $large-query) {

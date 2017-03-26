@@ -1,50 +1,33 @@
 
-.no-js .main-nav {
-  display: none;
-}
-
-@media screen and (min-width: $medium-query) {
-  .no-js .main-nav{
-    display: block;
-  }
-
-  .no-js .title-bar {
-    display: none;
-  }
-}
-
 body {
   background: $white;
   color: $black;
   font-size: $primary-font-size;
   line-height: 1.5;
   overflow-x: hidden;
+  position: relative;
 }
 
 img {
   max-width: 100%;
 }
 
-.row {
-  @media only screen and (min-width: 64em) {
-    margin: 0 3%;
-  }
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+  width: 85%;
 }
 
-.gold-bar {
-  border-bottom: 1px solid $gold;
+.text-left {
+  text-align: left;
 }
 
-///////////////////
-//  .main-nav
-//////////////////
-.main-nav {
-  background: transparent;
+.text-center {
+  text-align: center;  
 }
 
-.top-logo {
-  position: relative;
-  top: -20px;
+.text-right {
+  text-align: right;
 }
 
 
@@ -52,6 +35,7 @@ img {
 //  .hero
 //////////////////
 .hero {
+  background: $gold;
   background-repeat: no-repeat;
   height: 374px;
   padding-top: 2.54em;
@@ -62,39 +46,6 @@ img {
     text-align: left;
   }
 }
-
-////////////////////
-//  .services
-///////////////////
-
-.services {
-  @media only screen and (min-width: $medium-query) {
-    padding: 4em 0 12em;
-    .gold-bar {
-      &:first-of-type {
-        @include rotate(55deg);
-        position: relative;
-        top: -4em;
-        right: 4em;
-      }
-      &:nth-of-type(2) {
-        @include rotate(90deg);
-        position: relative;
-        top: 2.25em;
-        right: -.2em;
-      }
-    }
-  } // medium-query
-  @media only screen and (min-width: $large-query) {
-    .gold-bar {
-      &:first-of-type {
-        top: -6em;
-        right: 6em;
-      }
-    }
-  }
-}// .services
-
 /////////////////////
 //  .main-about 
 ////////////////////
@@ -157,21 +108,17 @@ img {
     }
   }
   .web {
-    @include background($black-overlay, image-url("https://hd.unsplash.com/photo-1449484956348-51e3a55fd0ab"), $black);
+    @include background($black-overlay, image-url("workspace.jpg"), $black);
     @include background-basics; 
     border-bottom: 2px solid $white;
     @media only screen and (min-width: $medium-query) {
       border: none;
-      box-shadow: -2em 2em 0 $black;
       margin: 3em 0 16em;
     }
   }
   .design {
-    @include background($gold-overlay, image-url("https://hd.unsplash.com/photo-1466786784937-3e682c802b14"), $black);
+    @include background($gold-overlay, image-url("macbook.jpg"), $black);
     @include background-basics;
-    @media only screen and (min-width: $medium-query) {
-      box-shadow: 2em 2em 0 $gold;
-    }
   }
 }
 
@@ -339,34 +286,28 @@ img {
     }
     .beginning-about-p {
       margin: 0 auto;
-      padding: 0 6%;
-      width: 24em;
+      padding: 0 8%;
+      width: 36em;
       position: relative;
       top: -1em;
       @media only screen and (min-width: $medium-query) {
         margin: 0 auto;
         padding: 0;
-        width: 28em;
+        width: 38em;
+      }
+      p {
+        font-size: 1.125em;
       }
     }
   }// .about-information
 }// .beginning
 
 .backpack-picture { 
-  width: 200px;
+  width: 100%;
   @media only screen and (min-width: $medium-query) {
     margin-top: 8em;
-    width: 300px;
   }
 }// .backpack-picture
-
-.backpack-picture {
-  box-shadow: .5em .5em 0 $black;
-}
-
-.beach-picture {
-  box-shadow: -.5em .5em 0 $gold;
-}
 
 .end {
     @media only screen and (min-width: $medium-query) {
@@ -405,7 +346,7 @@ img {
 ///////////////////
 
 .main-footer {
- .up-arrow{
+ .up-arrow {
     color: $black;
     display: inline-block;
  }
