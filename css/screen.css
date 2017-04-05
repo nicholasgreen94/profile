@@ -5,10 +5,7 @@
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 /* line 5, ../../../.rvm/gems/ruby-2.2.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
-h1, h2, h3, .web-work .web-project h3,
-.web-work .design-project h3,
-.design-work .web-project h3,
-.design-work .design-project h3, h4, h5, h6, p, blockquote, pre,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
@@ -72,15 +69,6 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 
 @font-face {
-  font-family: "born";
-  src: "css/fonts/Born.otf";
-}
-@font-face {
-  font-family: 'born';
-  src: url("fonts/born.eot");
-  src: url("fonts/born.eot?#iefix") format("embedded-opentype"), url("fonts/born-webfont.woff") format("woff"), url("fonts/bornwebfont.ttf") format("truetype"), url("fonts/born.svg#webfont") format("svg");
-}
-@font-face {
   font-family: "Butler";
   src: "css/fonts/Butler_Black.otf";
 }
@@ -92,226 +80,63 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 p {
   font-size: .9em;
   font-family: "Butler", Georgia, Times, serif;
-  font-weight: 400;
-  line-height: 1.6;
-  padding: .7em 0;
-}
-@media only screen and (min-width: 40em) {
-  /* line 6, ../sass/_typography.scss */
-  p {
-    font-size: 1em;
-  }
+  font-weight: 300;
+  line-height: 1.5;
 }
 
-/* line 17, ../sass/_typography.scss */
+/* line 13, ../sass/_typography.scss */
 a {
   color: #413b3b;
   text-decoration: none;
 }
-/* line 20, ../sass/_typography.scss */
+/* line 16, ../sass/_typography.scss */
 a:hover {
   cursor: pointer;
 }
 
-/* line 25, ../sass/_typography.scss */
-hr {
-  border-bottom: 1px solid #fff;
-}
-
-/* line 29, ../sass/_typography.scss */
-h1,
-h2,
-h3,
-.web-work .web-project h3,
-.web-work .design-project h3,
-.design-work .web-project h3,
-.design-work .design-project h3,
-h4 {
-  font-family: "acta-display", "Butler", Georgia, Times, serif;
-  font-weight: 900;
-}
-
-/* line 37, ../sass/_typography.scss */
-h1 {
-  letter-spacing: 1px;
-  padding-top: .5em;
-  font-size: 3.375em;
-  line-height: 1.33333em;
+/* line 22, ../sass/_typography.scss */
+h3 {
+  color: #f7f7f7;
+  font-size: 1.1em;
 }
 @media only screen and (min-width: 40em) {
-  /* line 37, ../sass/_typography.scss */
-  h1 {
-    font-size: 5.625em;
-    line-height: 1.06667em;
-  }
-}
-
-/* line 46, ../sass/_typography.scss */
-h2 {
-  font-size: 2.25em;
-  line-height: 1.33333em;
-}
-@media only screen and (min-width: 40em) {
-  /* line 46, ../sass/_typography.scss */
-  h2 {
-    font-size: 3.375em;
-    line-height: 1.33333em;
-  }
-}
-
-/* line 53, ../sass/_typography.scss */
-h3, .web-work .web-project h3,
-.web-work .design-project h3,
-.design-work .web-project h3,
-.design-work .design-project h3 {
-  color: #fff;
-  font-size: 1.25em;
-}
-@media only screen and (min-width: 40em) {
-  /* line 53, ../sass/_typography.scss */
-  h3, .web-work .web-project h3,
-  .web-work .design-project h3,
-  .design-work .web-project h3,
-  .design-work .design-project h3 {
+  /* line 22, ../sass/_typography.scss */
+  h3 {
     font-size: 2.25em;
   }
 }
 
-/* line 61, ../sass/_typography.scss */
+/* line 30, ../sass/_typography.scss */
 h4 {
-  font-size: 1.25em;
+  font-size: 1.1em;
 }
 
-/* line 65, ../sass/_typography.scss */
+/* line 34, ../sass/_typography.scss */
 li {
   font-family: "Butler", Georgia, Times, serif;
 }
 
-/* line 69, ../sass/_typography.scss */
+/* line 38, ../sass/_typography.scss */
 .email {
   padding: 0;
 }
 
-/* line 73, ../sass/_typography.scss */
+/* line 42, ../sass/_typography.scss */
 .left-indent {
   text-indent: 1em;
 }
 
-/* line 79, ../sass/_typography.scss */
-.menu a,
-#contact a {
-  display: inline-block;
-  -moz-transition: 0.24s;
-  -o-transition: 0.24s;
-  -webkit-transition: 0.24s;
-  transition: 0.24s;
-  -moz-transition-timing-function: ease-in-out;
-  -o-transition-timing-function: ease-in-out;
-  -webkit-transition-timing-function: ease-in-out;
-  transition-timing-function: ease-in-out;
-}
-/* line 83, ../sass/_typography.scss */
-.menu a:hover,
-#contact a:hover {
-  color: #d19537;
-}
-/* line 86, ../sass/_typography.scss */
-.menu a:active, .menu a:focus, .menu a:hover,
-#contact a:active,
-#contact a:focus,
-#contact a:hover {
-  color: #d19537;
-}
-
-/* line 94, ../sass/_typography.scss */
-.hero {
-  color: #fff;
-  text-align: left;
-}
-/* line 97, ../sass/_typography.scss */
-.hero span {
-  display: inline-block;
-  font-family: "acta-display", "Butler", Georgia, Times, serif;
-  font-size: 1.25em;
-  font-weight: 700;
-}
-@media only screen and (min-width: 40em) {
-  /* line 97, ../sass/_typography.scss */
-  .hero span {
-    font-size: 2.25em;
-    line-height: 1;
-  }
-}
-
-/* line 116, ../sass/_typography.scss */
-.main-about .columns,
-.about .columns,
-#contact .columns {
-  padding: 0;
-}
-/* line 119, ../sass/_typography.scss */
-.main-about h2,
-.about h2,
-#contact h2 {
-  padding-top: .5em;
-}
-/* line 122, ../sass/_typography.scss */
-.main-about p,
-.about p,
-#contact p {
-  font-weight: 400;
-}
-/* line 125, ../sass/_typography.scss */
-.main-about a,
-.about a,
-#contact a {
-  color: #413b3b;
-  display: inline-block;
-  font-family: "acta-display", "Butler", Georgia, Times, serif;
-  font-size: 1.25em;
-  font-weight: 700;
-  margin-bottom: 24px;
-  -moz-transition: 0.32s;
-  -o-transition: 0.32s;
-  -webkit-transition: 0.32s;
-  transition: 0.32s;
-  -moz-transition-timing-function: ease-in-out;
-  -o-transition-timing-function: ease-in-out;
-  -webkit-transition-timing-function: ease-in-out;
-  transition-timing-function: ease-in-out;
-}
-@media only screen and (min-width: 64em) {
-  /* line 125, ../sass/_typography.scss */
-  .main-about a,
-  .about a,
-  #contact a {
-    margin-bottom: 0;
-  }
-}
-/* line 137, ../sass/_typography.scss */
-.main-about a:hover,
-.about a:hover,
-#contact a:hover {
-  color: #d19537;
-}
-
-/* line 143, ../sass/_typography.scss */
-.created {
-  font-weight: 700;
-  text-transform: none;
-}
-
-/* line 154, ../sass/_typography.scss */
+/* line 53, ../sass/_typography.scss */
 .web p,
 .design p {
-  color: #fff;
+  color: #f7f7f7;
   font-weight: 400;
   padding: 8px 0 1.5em;
 }
-/* line 159, ../sass/_typography.scss */
+/* line 58, ../sass/_typography.scss */
 .web a,
 .design a {
-  color: #fff;
+  color: #f7f7f7;
   -moz-transition: 0.32s;
   -o-transition: 0.32s;
   -webkit-transition: 0.32s;
@@ -321,135 +146,25 @@ li {
   -webkit-transition-timing-function: ease-in-out;
   transition-timing-function: ease-in-out;
 }
-/* line 163, ../sass/_typography.scss */
+/* line 62, ../sass/_typography.scss */
 .web a:hover,
 .design a:hover {
   color: #d19537;
 }
-/* line 166, ../sass/_typography.scss */
+/* line 65, ../sass/_typography.scss */
 .web a:active, .web a:focus,
 .design a:active,
 .design a:focus {
   color: #d19537;
 }
 
-/* line 175, ../sass/_typography.scss */
+/* line 74, ../sass/_typography.scss */
 .design a:hover {
   color: #413b3b;
 }
-/* line 178, ../sass/_typography.scss */
+/* line 77, ../sass/_typography.scss */
 .design a:active, .design a:focus {
   color: #413b3b;
-}
-
-/* line 193, ../sass/_typography.scss */
-.web-work .web-project h3,
-.web-work .design-project h3,
-.design-work .web-project h3,
-.design-work .design-project h3 {
-  color: #413b3b;
-}
-@media only screen and (min-width: 40em) {
-  /* line 193, ../sass/_typography.scss */
-  .web-work .web-project h3,
-  .web-work .design-project h3,
-  .design-work .web-project h3,
-  .design-work .design-project h3 {
-    font-size: 2.25em;
-  }
-}
-/* line 200, ../sass/_typography.scss */
-.web-work .web-project p,
-.web-work .design-project p,
-.design-work .web-project p,
-.design-work .design-project p {
-  color: #413b3b;
-  font-weight: 400;
-}
-/* line 204, ../sass/_typography.scss */
-.web-work .web-project a,
-.web-work .design-project a,
-.design-work .web-project a,
-.design-work .design-project a {
-  color: #413b3b;
-  -moz-transition: 0.32s;
-  -o-transition: 0.32s;
-  -webkit-transition: 0.32s;
-  transition: 0.32s;
-  -moz-transition-timing-function: ease-in-out;
-  -o-transition-timing-function: ease-in-out;
-  -webkit-transition-timing-function: ease-in-out;
-  transition-timing-function: ease-in-out;
-}
-/* line 208, ../sass/_typography.scss */
-.web-work .web-project a:hover,
-.web-work .design-project a:hover,
-.design-work .web-project a:hover,
-.design-work .design-project a:hover {
-  color: #d19537;
-}
-/* line 211, ../sass/_typography.scss */
-.web-work .web-project a:active, .web-work .web-project a:focus,
-.web-work .design-project a:active,
-.web-work .design-project a:focus,
-.design-work .web-project a:active,
-.design-work .web-project a:focus,
-.design-work .design-project a:active,
-.design-work .design-project a:focus {
-  color: #d19537;
-}
-
-/* line 224, ../sass/_typography.scss */
-#contact a {
-  color: #413b3b;
-}
-/* line 228, ../sass/_typography.scss */
-#contact .social-media li {
-  display: inline-block;
-  margin: 0 3%;
-}
-/* line 232, ../sass/_typography.scss */
-#contact .social-media a {
-  color: #413b3b;
-  text-transform: none;
-}
-/* line 235, ../sass/_typography.scss */
-#contact .social-media a img {
-  height: 20px;
-  max-width: 100%;
-  width: 20px;
-}
-
-/* line 252, ../sass/_typography.scss */
-#about .about h2 {
-  padding-top: 0;
-}
-/* line 255, ../sass/_typography.scss */
-#about .about a {
-  font-size: 16px;
-  font-weight: 400;
-  margin-bottom: 0;
-  text-transform: none;
-}
-
-/* line 268, ../sass/_typography.scss */
-.main-footer .up-arrow {
-  color: #413b3b;
-  display: inline-block;
-  font-size: 2.25em;
-  padding: 8px;
-  -moz-transition: 0.32s;
-  -o-transition: 0.32s;
-  -webkit-transition: 0.32s;
-  transition: 0.32s;
-}
-/* line 274, ../sass/_typography.scss */
-.main-footer .up-arrow:hover, .main-footer .up-arrow:visited, .main-footer .up-arrow:focus {
-  color: #d19537;
-}
-/* line 279, ../sass/_typography.scss */
-.main-footer .up-arrow:hover {
-  cursor: pointer;
 }
 
 /* line 2, ../sass/_layout.scss */
@@ -489,105 +204,220 @@ img {
   text-align: right;
 }
 
-/* line 37, ../sass/_layout.scss */
-.hero {
-  background: #d19537;
-  background-repeat: no-repeat;
-  height: 374px;
-  padding-top: 2.54em;
+/* line 33, ../sass/_layout.scss */
+.web {
+  padding-bottom: 24px;
+}
+
+/* line 2, ../sass/_header.scss */
+#top {
+  background: #fff;
+}
+/* line 4, ../sass/_header.scss */
+#top #main-nav {
+  text-align: right;
+}
+/* line 8, ../sass/_header.scss */
+#top .menu {
+  display: block;
   text-align: center;
 }
 @media only screen and (min-width: 40em) {
-  /* line 37, ../sass/_layout.scss */
-  .hero {
-    height: 450px;
-    padding-top: 6.24em;
-    text-align: left;
+  /* line 8, ../sass/_header.scss */
+  #top .menu {
+    text-align: right;
+  }
+}
+/* line 14, ../sass/_header.scss */
+#top .menu li {
+  display: inline-block;
+  margin: .25em;
+}
+/* line 17, ../sass/_header.scss */
+#top .menu li a {
+  color: #413b3b;
+  display: inline-block;
+  font-family: "acta-display", "Butler", Georgia, Times, serif;
+  font-size: 1em;
+  padding: .5em .25em;
+  transition: .24s ease-out;
+}
+@media only screen and (min-width: 40em) {
+  /* line 17, ../sass/_header.scss */
+  #top .menu li a {
+    font-size: .9em;
+    padding: .5em;
+  }
+}
+/* line 28, ../sass/_header.scss */
+#top .menu li a:active, #top .menu li a:focus, #top .menu li a:hover {
+  color: #d19537;
+}
+@media only screen and (min-width: 64em) {
+  /* line 36, ../sass/_header.scss */
+  #top .menu .first-nav-item {
+    margin-left: 0;
+    padding-left: 0;
   }
 }
 
-/* line 54, ../sass/_layout.scss */
-.main-about .my-about {
+/* line 5, ../sass/_index.scss */
+.hero {
+  background: #fff;
   color: #413b3b;
+  height: 374px;
+  padding-top: 2.54em;
+  text-align: left;
 }
-/* line 56, ../sass/_layout.scss */
-.main-about .my-about .vnstyle {
+@media only screen and (min-width: 40em) {
+  /* line 5, ../sass/_index.scss */
+  .hero {
+    height: 375px;
+    padding-top: 6.24em;
+  }
+}
+/* line 15, ../sass/_index.scss */
+.hero h1 {
+  font-family: "acta-display", "Butler", Georgia, Times, serif;
+  font-weight: 500;
+  padding-top: .5em;
+  font-size: 3.1em;
+  line-height: 1.45161em;
+}
+@media only screen and (min-width: 40em) {
+  /* line 15, ../sass/_index.scss */
+  .hero h1 {
+    font-size: 4.625em;
+    line-height: 1.2973em;
+  }
+}
+/* line 24, ../sass/_index.scss */
+.hero span {
+  display: inline-block;
+  font-family: "acta-display", "Butler", Georgia, Times, serif;
+  font-size: 16px;
+  font-weight: 100;
+}
+@media only screen and (min-width: 40em) {
+  /* line 24, ../sass/_index.scss */
+  .hero span {
+    font-size: 1.87em;
+    line-height: 1;
+    width: 80%;
+  }
+}
+
+/* line 37, ../sass/_index.scss */
+#main-about {
+  background: #f7f7f7;
+  position: relative;
+  padding: 56px 0 102px;
+}
+/* line 41, ../sass/_index.scss */
+#main-about .column {
+  float: none;
+  margin: 0 auto;
+  width: 55%;
+}
+/* line 47, ../sass/_index.scss */
+#main-about .my-about p {
+  font-size: 1.1em;
+  font-weight: 300;
+  line-height: 1.5;
+  margin-bottom: 18px;
+}
+/* line 53, ../sass/_index.scss */
+#main-about .my-about a {
+  font-family: "acta-display", "Butler", Georgia, Times, serif;
+  font-weight: 700;
+  transition: .24s ease-out;
+}
+/* line 57, ../sass/_index.scss */
+#main-about .my-about a:hover {
+  color: #d19537;
+}
+/* line 61, ../sass/_index.scss */
+#main-about .my-about .vnstyle {
   font-size: 16px;
   font-weight: 700;
   text-transform: none;
 }
-/* line 60, ../sass/_layout.scss */
-.main-about .my-about .vnstyle:hover {
+/* line 65, ../sass/_index.scss */
+#main-about .my-about .vnstyle:hover {
   -moz-transform: scale(1, 1);
   -ms-transform: scale(1, 1);
   -webkit-transform: scale(1, 1);
   transform: scale(1, 1);
   color: #d19537;
 }
-@media only screen and (min-width: 40em) {
-  /* line 69, ../sass/_layout.scss */
-  .main-about .gold-bar {
-    -moz-transform: rotate(105deg);
-    -ms-transform: rotate(105deg);
-    -webkit-transform: rotate(105deg);
-    transform: rotate(105deg);
-    position: relative;
-    top: -5em;
-    right: 2em;
-  }
+/* line 70, ../sass/_index.scss */
+#main-about .my-about .read-more {
+  display: inline-block;
+  font-size: 1.5em;
+  font-weight: 500;
+  text-align: center;
 }
-@media only screen and (min-width: 64em) {
-  /* line 53, ../sass/_layout.scss */
-  .main-about {
-    margin-bottom: 4em;
+
+/* line 79, ../sass/_index.scss */
+#main-photo {
+  background: #f7f7f7;
+  padding-bottom: 56px;
+  text-align: center;
+  position: relative;
+}
+/* line 84, ../sass/_index.scss */
+#main-photo img {
+  margin: 0 auto;
+  width: 80%;
+}
+
+/* line 92, ../sass/_index.scss */
+#main-work {
+  background: #fff;
+  padding-top: 85px;
+}
+/* line 95, ../sass/_index.scss */
+#main-work .columns {
+  padding: 0;
+}
+/* line 98, ../sass/_index.scss */
+#main-work h2 {
+  font-family: "acta-display", "Butler", Georgia, Times, serif;
+  font-size: 2.25em;
+  font-weight: 500;
+}
+@media only screen and (min-width: 40em) {
+  /* line 98, ../sass/_index.scss */
+  #main-work h2 {
+    font-size: 3.1em;
   }
 }
 
-/* line 85, ../sass/_layout.scss */
-.main-work {
-  padding-top: 2.5em;
+/* line 109, ../sass/_index.scss */
+#main-work {
+  margin-bottom: 56px;
 }
-/* line 87, ../sass/_layout.scss */
-.main-work .columns {
-  padding: 0;
-}
-@media only screen and (min-width: 40em) {
-  /* line 90, ../sass/_layout.scss */
-  .main-work .gold-bar {
-    -moz-transform: rotate(75deg);
-    -ms-transform: rotate(75deg);
-    -webkit-transform: rotate(75deg);
-    transform: rotate(75deg);
-    position: relative;
-    top: -6.25em;
-  }
-}
-/* line 97, ../sass/_layout.scss */
-.main-work .web,
-.main-work .design {
+/* line 111, ../sass/_index.scss */
+#main-work .web,
+#main-work .design {
   padding: 64px 0 16px;
 }
 @media only screen and (min-width: 40em) {
-  /* line 97, ../sass/_layout.scss */
-  .main-work .web,
-  .main-work .design {
+  /* line 111, ../sass/_index.scss */
+  #main-work .web,
+  #main-work .design {
     padding: 128px 0 92px;
   }
 }
 @media only screen and (min-width: 64em) {
-  /* line 97, ../sass/_layout.scss */
-  .main-work .web,
-  .main-work .design {
+  /* line 111, ../sass/_index.scss */
+  #main-work .web,
+  #main-work .design {
     padding: 168px 0 112px;
   }
 }
-/* line 106, ../sass/_layout.scss */
-.main-work .web hr,
-.main-work .design hr {
-  margin: 10px auto;
-}
-/* line 110, ../sass/_layout.scss */
-.main-work .web {
+/* line 121, ../sass/_index.scss */
+#main-work .web {
   background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzYxNTY1NiIgc3RvcC1vcGFjaXR5PSIwLjY1Ii8+PHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjNjE1NjU2IiBzdG9wLW9wYWNpdHk9IjAuNjUiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyYWQpIiAvPjwvc3ZnPiA='), url('../img/workspace.jpg?1485940824'), #413b3b;
   background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(97, 86, 86, 0.65)), color-stop(100%, rgba(97, 86, 86, 0.65))), url('../img/workspace.jpg?1485940824'), #413b3b;
   background: -moz-linear-gradient(rgba(97, 86, 86, 0.65), rgba(97, 86, 86, 0.65)), url('../img/workspace.jpg?1485940824'), #413b3b;
@@ -596,17 +426,10 @@ img {
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: cover;
-  border-bottom: 2px solid #fff;
+  border-bottom: 2px solid #f7f7f7;
 }
-@media only screen and (min-width: 40em) {
-  /* line 110, ../sass/_layout.scss */
-  .main-work .web {
-    border: none;
-    margin: 3em 0 16em;
-  }
-}
-/* line 119, ../sass/_layout.scss */
-.main-work .design {
+/* line 126, ../sass/_index.scss */
+#main-work .design {
   background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2QxOTUzNyIgc3RvcC1vcGFjaXR5PSIwLjY1Ii8+PHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjZDE5NTM3IiBzdG9wLW9wYWNpdHk9IjAuNjUiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyYWQpIiAvPjwvc3ZnPiA='), url('../img/macbook.jpg?1485940824'), #413b3b;
   background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(209, 149, 55, 0.65)), color-stop(100%, rgba(209, 149, 55, 0.65))), url('../img/macbook.jpg?1485940824'), #413b3b;
   background: -moz-linear-gradient(rgba(209, 149, 55, 0.65), rgba(209, 149, 55, 0.65)), url('../img/macbook.jpg?1485940824'), #413b3b;
@@ -617,255 +440,135 @@ img {
   background-size: cover;
 }
 
-/* line 125, ../sass/_layout.scss */
-.web {
-  padding-bottom: 24px;
-}
-
-/* line 135, ../sass/_layout.scss */
-#web-page .hero,
-#design-page .hero {
-  height: 214px;
-}
-@media only screen and (min-width: 40em) {
-  /* line 135, ../sass/_layout.scss */
-  #web-page .hero,
-  #design-page .hero {
-    height: 374px;
-  }
-}
-
-/* line 143, ../sass/_layout.scss */
+/* line 7, ../sass/_web_design.scss */
 .web-work,
 .design-work {
+  background: #f7f7f7;
+  padding: 56px 0 102px;
+}
+/* line 11, ../sass/_web_design.scss */
+.web-work .column,
+.design-work .column {
+  float: none;
+  margin: 0 auto;
+}
+/* line 15, ../sass/_web_design.scss */
+.web-work .project,
+.design-work .project {
   background: #fff;
+  border-bottom: 8px solid #d19537;
+  margin-bottom: 84px;
+  padding: 36px 0;
+  position: relative;
+  top: -8px;
 }
-/* line 146, ../sass/_layout.scss */
-.web-work .columns,
-.design-work .columns {
-  padding: 0 3%;
+/* line 23, ../sass/_web_design.scss */
+.web-work h2,
+.design-work h2 {
+  font-size: 2.25em;
+  font-family: "acta-display", "Butler", Georgia, Times, serif;
+  font-weight: 400;
 }
-@media only screen and (min-width: 40em) {
-  /* line 146, ../sass/_layout.scss */
-  .web-work .columns,
-  .design-work .columns {
-    padding: 0 1%;
+@media screen and (min-width: 750px) {
+  /* line 23, ../sass/_web_design.scss */
+  .web-work h2,
+  .design-work h2 {
+    font-size: 3.1em;
   }
 }
-@media only screen and (min-width: 64em) {
-  /* line 146, ../sass/_layout.scss */
-  .web-work .columns,
-  .design-work .columns {
-    padding: 0 .25%;
+/* line 31, ../sass/_web_design.scss */
+.web-work p,
+.design-work p {
+  font-size: 1em;
+  font-weight: 300;
+  line-height: 1.5;
+  margin: 0 auto;
+  padding-bottom: 12px;
+  width: 75%;
+}
+@media screen and (min-width: 750px) {
+  /* line 31, ../sass/_web_design.scss */
+  .web-work p,
+  .design-work p {
+    font-size: 1.1em;
   }
+}
+/* line 42, ../sass/_web_design.scss */
+.web-work a,
+.design-work a {
+  color: #413b3b;
+  -moz-transition: 0.32s;
+  -o-transition: 0.32s;
+  -webkit-transition: 0.32s;
+  transition: 0.32s;
+  -moz-transition-timing-function: ease-in-out;
+  -o-transition-timing-function: ease-in-out;
+  -webkit-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
+}
+/* line 46, ../sass/_web_design.scss */
+.web-work a:hover, .web-work a:active, .web-work a:focus,
+.design-work a:hover,
+.design-work a:active,
+.design-work a:focus {
+  color: #d19537;
 }
 
-@media only screen and (min-width: 40em) {
-  /* line 159, ../sass/_layout.scss */
-  .web-work .first-gold-bar {
-    -moz-transform: rotate(53deg);
-    -ms-transform: rotate(53deg);
-    -webkit-transform: rotate(53deg);
-    transform: rotate(53deg);
-    position: relative;
-    top: -1.4em;
-    right: 6em;
-  }
-}
-@media only screen and (min-width: 64em) {
-  /* line 167, ../sass/_layout.scss */
-  .web-work .first-gold-bar {
-    top: -3.4em;
-    right: 7em;
-  }
-}
-
-/* line 174, ../sass/_layout.scss */
-.design-work {
-  background: #fff;
-}
-@media only screen and (min-width: 40em) {
-  /* line 177, ../sass/_layout.scss */
-  .design-work .first-gold-bar {
-    -moz-transform: rotate(53deg);
-    -ms-transform: rotate(53deg);
-    -webkit-transform: rotate(53deg);
-    transform: rotate(53deg);
-    position: relative;
-    top: -.4em;
-    right: 6em;
-  }
-}
-@media only screen and (min-width: 64em) {
-  /* line 185, ../sass/_layout.scss */
-  .design-work .first-gold-bar {
-    top: -1.4em;
-    right: 7em;
-  }
-}
-
-/* line 194, ../sass/_layout.scss */
+/* line 56, ../sass/_web_design.scss */
 .web-project .preview-photo,
 .design-project .preview-photo {
-  box-shadow: 0 2px 4px #c1baba;
+  box-shadow: 0 -1px 4px #c1baba;
   display: inline-block;
-  margin: 32px 0;
-}
-@media only screen and (min-width: 40em) {
-  /* line 194, ../sass/_layout.scss */
-  .web-project .preview-photo,
-  .design-project .preview-photo {
-    margin: 48px 0;
-  }
 }
 
-/* line 208, ../sass/_layout.scss */
-#contact {
-  padding: 3em 0;
+/* line 8, ../sass/_about.scss */
+#about-text {
+  background: #f7f7f7;
+  padding: 56px 0 102px;
 }
-@media only screen and (min-width: 40em) {
-  /* line 208, ../sass/_layout.scss */
-  #contact {
-    padding: 10em 0 5em;
-  }
-  /* line 212, ../sass/_layout.scss */
-  #contact .gold-bar {
-    -moz-transform: rotate(110deg);
-    -ms-transform: rotate(110deg);
-    -webkit-transform: rotate(110deg);
-    transform: rotate(110deg);
-    position: relative;
-    top: -1.84em;
-    right: 5em;
-  }
-  /* line 217, ../sass/_layout.scss */
-  #contact .gold-bar:nth-of-type(2) {
-    -moz-transform: rotate(65deg);
-    -ms-transform: rotate(65deg);
-    -webkit-transform: rotate(65deg);
-    transform: rotate(65deg);
-    top: 2em;
-    right: -1em;
-  }
-}
-@media only screen and (min-width: 40em) and (min-width: 64em) {
-  /* line 223, ../sass/_layout.scss */
-  #contact .gold-bar:nth-of-type(2) {
-    -moz-transform: rotate(55deg);
-    -ms-transform: rotate(55deg);
-    -webkit-transform: rotate(55deg);
-    transform: rotate(55deg);
-    top: 2em;
-    right: 6em;
-  }
-}
-
-/* line 232, ../sass/_layout.scss */
-#contact .social-media h2 {
-  padding-top: .75em;
-}
-@media only screen and (min-width: 40em) {
-  /* line 231, ../sass/_layout.scss */
-  #contact .social-media {
-    padding-top: 3em;
-  }
-}
-
-/* line 246, ../sass/_layout.scss */
-#about .hero {
-  height: 188px;
-}
-@media only screen and (min-width: 40em) {
-  /* line 246, ../sass/_layout.scss */
-  #about .hero {
-    height: 450px;
-  }
-}
-
-/* line 255, ../sass/_layout.scss */
-.beginning .gold-bar {
-  position: relative;
-  top: -.5em;
-}
-@media only screen and (min-width: 40em) {
-  /* line 260, ../sass/_layout.scss */
-  .beginning .gold-bar {
-    -moz-transform: rotate(78deg);
-    -ms-transform: rotate(78deg);
-    -webkit-transform: rotate(78deg);
-    transform: rotate(78deg);
-    position: relative;
-    top: -5em;
-    right: 12em;
-  }
-}
-@media only screen and (min-width: 64em) {
-  /* line 268, ../sass/_layout.scss */
-  .beginning .gold-bar {
-    position: relative;
-    top: -5em;
-    right: 14em;
-  }
-}
-@media only screen and (min-width: 40em) {
-  /* line 276, ../sass/_layout.scss */
-  .beginning .about-information .gold-bar {
-    -moz-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    -webkit-transform: rotate(90deg);
-    transform: rotate(90deg);
-    position: relative;
-    top: -5em;
-    right: 12em;
-  }
-  /* line 281, ../sass/_layout.scss */
-  .beginning .about-information .gold-bar:last-of-type {
-    top: 3.5em;
-    right: 0;
-  }
-}
-/* line 287, ../sass/_layout.scss */
-.beginning .about-information .beginning-about-p {
+/* line 13, ../sass/_about.scss */
+#about-text .column {
+  float: none;
   margin: 0 auto;
-  padding: 0 8%;
-  width: 36em;
-  position: relative;
-  top: -1em;
+  width: 55%;
 }
-@media only screen and (min-width: 40em) {
-  /* line 287, ../sass/_layout.scss */
-  .beginning .about-information .beginning-about-p {
-    margin: 0 auto;
-    padding: 0;
-    width: 38em;
-  }
+/* line 18, ../sass/_about.scss */
+#about-text p {
+  font-size: 1.1em;
+  font-weight: 300;
+  line-height: 1.5;
+  margin-bottom: 18px;
 }
-/* line 298, ../sass/_layout.scss */
-.beginning .about-information .beginning-about-p p {
-  font-size: 1.125em;
+/* line 24, ../sass/_about.scss */
+#about-text .about-images {
+  padding-top: 56px;
+}
+/* line 26, ../sass/_about.scss */
+#about-text .about-images .column {
+  width: 48%;
 }
 
-/* line 305, ../sass/_layout.scss */
+/* line 32, ../sass/_about.scss */
 .backpack-picture {
   width: 100%;
 }
 @media only screen and (min-width: 40em) {
-  /* line 305, ../sass/_layout.scss */
+  /* line 32, ../sass/_about.scss */
   .backpack-picture {
     margin-top: 8em;
   }
 }
 
 @media only screen and (min-width: 40em) {
-  /* line 312, ../sass/_layout.scss */
+  /* line 39, ../sass/_about.scss */
   .end {
     margin: 2em 0;
   }
-  /* line 315, ../sass/_layout.scss */
+  /* line 42, ../sass/_about.scss */
   .end .end-text {
     margin-top: 6em;
   }
-  /* line 318, ../sass/_layout.scss */
+  /* line 45, ../sass/_about.scss */
   .end .gold-bar {
     -moz-transform: rotate(112deg);
     -ms-transform: rotate(112deg);
@@ -875,7 +578,7 @@ img {
     top: 0;
     right: 3em;
   }
-  /* line 323, ../sass/_layout.scss */
+  /* line 50, ../sass/_about.scss */
   .end .gold-bar:last-of-type {
     -moz-transform: rotate(56deg);
     -ms-transform: rotate(56deg);
@@ -887,148 +590,184 @@ img {
   }
 }
 @media only screen and (min-width: 64em) {
-  /* line 333, ../sass/_layout.scss */
+  /* line 60, ../sass/_about.scss */
   .end .gold-bar:last-of-type {
     right: 12em;
   }
 }
-/* line 338, ../sass/_layout.scss */
+/* line 65, ../sass/_about.scss */
 .end .end-text {
   margin-top: 2em;
 }
 
-/* line 349, ../sass/_layout.scss */
-.main-footer .up-arrow {
-  color: #413b3b;
-  display: inline-block;
+/* line 3, ../sass/_contact.scss */
+#contact .column {
+  float: left;
+  margin: 0 auto;
+  width: 55%;
 }
-
-/* line 2, ../sass/_header.scss */
-#top {
-  background: #d19537;
+/* line 8, ../sass/_contact.scss */
+#contact .hero {
+  height: 375px;
 }
-/* line 4, ../sass/_header.scss */
-#top #main-nav {
-  text-align: right;
-}
-/* line 7, ../sass/_header.scss */
-#top .menu {
-  display: block;
-  text-align: center;
-}
-@media only screen and (min-width: 40em) {
-  /* line 7, ../sass/_header.scss */
-  #top .menu {
-    text-align: right;
-  }
-}
-/* line 13, ../sass/_header.scss */
-#top .menu li {
-  display: inline-block;
-  margin: .25em;
-}
-/* line 16, ../sass/_header.scss */
-#top .menu li a {
-  color: #fff;
-  display: inline-block;
+/* line 11, ../sass/_contact.scss */
+#contact p {
   font-family: "acta-display", "Butler", Georgia, Times, serif;
-  font-size: 1em;
-  padding: .5em .25em;
+  font-size: 1.1em;
+  font-weight: 300;
+  line-height: 1.5;
+  margin-bottom: 48px;
 }
-@media only screen and (min-width: 40em) {
-  /* line 16, ../sass/_header.scss */
-  #top .menu li a {
-    font-size: 16px;
-    padding: .5em;
-  }
+/* line 18, ../sass/_contact.scss */
+#contact #contact-form {
+  background: #f7f7f7;
+  padding: 56px 0;
 }
-@media only screen and (min-width: 64em) {
-  /* line 29, ../sass/_header.scss */
-  #top .menu .first-nav-item {
-    margin-left: 0;
-    padding-left: 0;
-  }
-}
-
-/* line 2, ../sass/_index.scss */
-#services {
-  position: relative;
-  top: -132px;
-}
-/* line 5, ../sass/_index.scss */
-#services .preview-photo {
-  float: right;
-  margin-right: 4em;
-}
-/* line 9, ../sass/_index.scss */
-#services #statement {
-  font-size: 3.14em;
-  padding-top: 2em;
-  letter-spacing: 1px;
-  line-height: 1.2;
-  text-align: center;
-}
-
-/* line 18, ../sass/_index.scss */
-#main-about {
-  position: relative;
-  left: 10%;
-}
-/* line 21, ../sass/_index.scss */
-#main-about .column {
+/* line 21, ../sass/_contact.scss */
+#contact #contact-form .column {
+  float: none;
   margin: 0 auto;
 }
-/* line 25, ../sass/_index.scss */
-#main-about .my-about a {
+/* line 25, ../sass/_contact.scss */
+#contact #contact-form label {
+  color: #d19537;
   font-family: "acta-display", "Butler", Georgia, Times, serif;
-  font-weight: 700;
-  transition: .24s ease-out;
+  font-weight: 600;
 }
-/* line 29, ../sass/_index.scss */
-#main-about .my-about a:hover {
+/* line 30, ../sass/_contact.scss */
+#contact #contact-form input,
+#contact #contact-form textarea {
+  border: 1px solid #d19537;
+  border-radius: 0;
+}
+/* line 35, ../sass/_contact.scss */
+#contact #contact-form .inputs {
+  margin: 0 auto;
+  width: 60%;
+}
+/* line 39, ../sass/_contact.scss */
+#contact #contact-form .inputs .top-inputs input {
+  height: 32px;
+  float: left;
+  font-family: "Butler", Georgia, Times, serif;
+  font-size: 1em;
+  margin-bottom: 0;
+  padding: 10px 0 2px 4px;
+  width: 48%;
+}
+/* line 48, ../sass/_contact.scss */
+#contact #contact-form .inputs .top-inputs #name {
+  margin-right: 4%;
+}
+/* line 51, ../sass/_contact.scss */
+#contact #contact-form .inputs .top-inputs label[for="email"],
+#contact #contact-form .inputs .top-inputs #email {
+  position: relative;
+  top: -24px;
+}
+/* line 57, ../sass/_contact.scss */
+#contact #contact-form .inputs #comments {
+  font-family: "Butler", Georgia, Times, serif;
+  font-size: 1em;
+  height: 172px;
+  padding-left: 2px;
+  margin-bottom: 16px;
+  width: 100%;
+}
+/* line 67, ../sass/_contact.scss */
+#contact input#contact-submit {
+  background: #d19537;
+  color: #f7f7f7;
+  display: inline-block;
+  font-family: "acta-display", "Butler", Georgia, Times, serif;
+  font-size: 1.1em;
+  letter-spacing: 0;
+  padding: 0 22px;
+  text-transform: capitalize;
+  -moz-transition: 0.24s;
+  -o-transition: 0.24s;
+  -webkit-transition: 0.24s;
+  transition: 0.24s;
+  -moz-transition-timing-function: ease-in-out;
+  -o-transition-timing-function: ease-in-out;
+  -webkit-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
+}
+/* line 78, ../sass/_contact.scss */
+#contact input#contact-submit:active, #contact input#contact-submit:focus, #contact input#contact-submit:hover {
+  background: #413b3b;
+  border: 1px solid #413b3b;
+}
+
+/* line 2, ../sass/_social_media.scss */
+#social-media .column {
+  margin: 0 auto 32px;
+  float: none;
+}
+/* line 6, ../sass/_social_media.scss */
+#social-media h3 {
+  color: #413b3b;
+  font-size: 1.1em;
+  font-family: "acta-display", "Butler", Georgia, Times, serif;
+  font-weight: 400;
+}
+@media screen and (min-width: 750px) {
+  /* line 6, ../sass/_social_media.scss */
+  #social-media h3 {
+    font-size: 2.25em;
+  }
+}
+@media only screen and (min-width: 40em) {
+  /* line 1, ../sass/_social_media.scss */
+  #social-media {
+    padding-top: 3em;
+  }
+}
+/* line 18, ../sass/_social_media.scss */
+#social-media li {
+  display: inline-block;
+  margin: 0 3%;
+}
+/* line 22, ../sass/_social_media.scss */
+#social-media a {
+  color: #413b3b;
+  font-size: 1.2em;
+  text-transform: none;
+}
+/* line 26, ../sass/_social_media.scss */
+#social-media a img {
+  height: 20px;
+  max-width: 100%;
+  width: 20px;
+}
+
+/* line 3, ../sass/_footer.scss */
+#main-footer .up-arrow {
+  color: #413b3b;
+  display: inline-block;
+  font-size: 2.25em;
+  padding: 8px;
+  -moz-transition: 0.32s;
+  -o-transition: 0.32s;
+  -webkit-transition: 0.32s;
+  transition: 0.32s;
+}
+/* line 9, ../sass/_footer.scss */
+#main-footer .up-arrow:hover, #main-footer .up-arrow:visited, #main-footer .up-arrow:focus {
   color: #d19537;
 }
-/* line 33, ../sass/_index.scss */
-#main-about .my-about .read-more {
-  display: inline-block;
-  font-size: 1.5em;
-  margin-top: 1em;
-}
-/* line 39, ../sass/_index.scss */
-#main-about .about-image-overlay {
-  background: #d19537;
-  opacity: .5;
-  height: 235px;
-  width: 235px;
-  z-index: 20;
-  position: relative;
-  top: -335px;
-  left: 185px;
-}
-/* line 49, ../sass/_index.scss */
-#main-about .about-image {
-  height: 35%;
-  opacity: 1;
-  width: 35%;
-  position: relative;
-  top: -487px;
-  left: 235px;
+/* line 14, ../sass/_footer.scss */
+#main-footer .up-arrow:hover {
+  cursor: pointer;
 }
 
 /* line 2, ../sass/_buttons.scss */
 .btn {
   display: inline-block;
   font-family: "acta-display", "Butler", Georgia, Times, serif;
-  font-size: 1.25em;
-  font-weight: 700;
-  letter-spacing: 1px;
+  font-size: 1.5em;
+  font-weight: 400;
   padding: 10px;
-}
-
-/* line 2, ../sass/_images.scss */
-.preview-photo {
-  margin: 0 auto;
-  width: 50%;
 }
 
 @font-face {

@@ -1,0 +1,87 @@
+
+#contact {
+    .column {
+      float: left; 
+      margin: 0 auto;
+      width: 55%;
+    }
+    .hero {
+      height: 375px;
+    }
+    p {
+      font-family: $primary-font;
+      font-size: $fourth-font-size;
+      font-weight: 300;
+      line-height: 1.5;
+      margin-bottom: 48px;
+    }
+    #contact-form {
+      background: $white;
+      padding: 56px 0;
+      .column {
+        float: none;
+        margin: 0 auto;
+      }
+      label {
+        color: $gold;
+        font-family: $primary-font;
+        font-weight: 600;
+      }
+      input,
+      textarea {
+        border: 1px solid $gold;
+        border-radius: 0;
+      }
+      .inputs {
+        margin: 0 auto; 
+        width: 60%;
+        .top-inputs {
+          input {
+            height: 32px;
+            float: left;
+            font-family: $secondary-font;
+            font-size: 1em;
+            margin-bottom: 0;
+            padding: 10px 0 2px 4px; 
+            width: 48%;
+          }
+          #name {
+            margin-right: 4%;
+          }
+          label[for="email"],
+          #email {
+            position: relative;
+            top: -24px;
+          }
+        }
+        #comments {
+          font-family: $secondary-font;
+          font-size: 1em;
+          height: 172px;
+          padding-left: 2px;
+          margin-bottom: 16px;
+          width: 100%;
+        }
+      }
+    }
+    input#contact-submit {
+      background: $gold;
+      color: $white;
+      display: inline-block;
+      font-family: $primary-font;
+      font-size: $fourth-font-size;
+      letter-spacing: 0;
+      padding: 0 22px;
+      text-transform: capitalize;
+      @include transition(.24s);
+      @include transition-timing-function(ease-in-out);
+      &:active,
+      &:focus,
+      &:hover {
+        background: $black;
+        border: 1px solid $black;
+      }
+    }
+}
+
+

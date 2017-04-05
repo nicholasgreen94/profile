@@ -1,25 +1,15 @@
 
 // Colors
 $black: #413b3b;
-$white: #fff;
+$white: #f7f7f7;
 $gold: #d19537;
 
 
 // Overlays 
 $black-overlay: linear-gradient(rgba(97,86,86,.65), rgba(97,86,86,.65));
-$light-overlay: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3));
+$light-overlay: linear-gradient(rgba(247, 247, 247, 0.3), rgba(247, 247, 247, 0.3));
 $gold-overlay: linear-gradient(rgba(209, 149, 55, .65), rgba(209, 149, 55, .65));
 
-// Including the Born font & icomoon
-@include font-face("born", "css/fonts/Born.otf");
-@font-face{  // Adding Born font
-	font-family: 'born';
-	src: url('fonts/born.eot');
-	src: url('fonts/born.eot?#iefix') format('embedded-opentype'),
-	     url('fonts/born-webfont.woff') format('woff'),
-	     url('fonts/bornwebfont.ttf') format('truetype'),
-	     url('fonts/born.svg#webfont') format('svg');
-}
 @include font-face("Butler", "css/fonts/Butler_Black.otf");
 @include font-face("Butler", "css/fonts/Butler_Bold.otf");
 
@@ -37,13 +27,13 @@ $icon-github: "\eab0";
 
 // Fonts 
 $primary-font: "acta-display", "Butler", Georgia, Times, serif;
-$secondary-font: /*"born",*/ "Butler", Georgia, Times, serif;
+$secondary-font: "Butler", Georgia, Times, serif;
 
 // Font sizes 
-$primary-heading: 5.625em;
-$secondary-font-size: 3.375em;
+$primary-heading: 4.625em;
+$secondary-font-size: 3.1em;
 $third-font-size: 2.25em;
-$fourth-font-size: 1.25em;
+$fourth-font-size: 1.1em;
 $primary-font-size: 16px;
 $small-font-size: 0.754em;
 

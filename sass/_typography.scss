@@ -6,12 +6,8 @@
 p {
   font-size: .9em;
   font-family: $secondary-font;
-  font-weight: 400;
-  line-height: 1.6;
-  padding: .7em 0;
-  @media only screen and (min-width: $medium-query) {
-    font-size: 1em;
-  }
+  font-weight: 300;
+  line-height: 1.5;
 }
 
 a {
@@ -22,33 +18,6 @@ a {
   }
 }
 
-hr {
-  border-bottom: 1px solid $white;
-}
-
-h1,
-h2, 
-h3,
-h4 {
-  font-family: $primary-font;
-  font-weight:  900;
-}
-
-h1 {
-  letter-spacing: 1px;
-  padding-top: .5em;
-  @include adjust-font-size-to($secondary-font-size); // 3.375 * 16px = 54px
-  @media only screen and (min-width: $medium-query) {
-    @include adjust-font-size-to($primary-heading); // 4.625em * 16px = 74px
-  }
-}
-
-h2 {
-  @include adjust-font-size-to($third-font-size);
-  @media only screen and (min-width: $medium-query) {
-    @include adjust-font-size-to($secondary-font-size);
-  }
-}
 
 h3 {
   color: $white;
@@ -74,76 +43,6 @@ li {
   text-indent: 1em;
 }
 
-.menu,
-#contact {
-  a {
-    display: inline-block;
-    @include transition(.24s);
-    @include transition-timing-function(ease-in-out);
-    &:hover {
-      color: $gold;
-    }
-    &:active,
-    &:focus,
-    &:hover {
-      color: $gold;
-    }
-  }
-}
-
-.hero {
-  color: $white;
-  text-align: left;
-  span {
-    display: inline-block;
-    font-family: $primary-font;
-    font-size: $fourth-font-size;
-    font-weight: 700;
-    @media only screen and (min-width: $medium-query) {
-      font-size: $third-font-size;
-      line-height: 1;
-    }
-  }
-}
-
-
-///////////////////
-//.main-about
-//////////////////
-.main-about,
-.about,
-#contact {
-  .columns {
-    padding: 0;
-  }
-  h2 {
-    padding-top: .5em;
-  }
-  p {
-    font-weight: 400;
-  }
-  a {
-    color: $black;
-    display: inline-block;
-    font-family: $primary-font;
-    font-size: $fourth-font-size;
-    font-weight: 700;
-    margin-bottom: $margin * 12;
-    @include transition(.32s);
-    @include transition-timing-function(ease-in-out);
-    @media only screen and (min-width: $large-query) {
-      margin-bottom: 0;
-    }
-    &:hover {
-      color: $gold;
-    }
-  }
-}
-
-.created {
-  font-weight: 700;
-  text-transform: none;
-}
 
 ///////////////////////
 // .web + .design
@@ -181,107 +80,6 @@ li {
     }
   }
 }
-
-//////////////////////////////////////
-// .web-work + .design-work
-/////////////////////////////////////
-
-.web-work,
-.design-work {
-  .web-project,
-  .design-project {
-    h3 {
-      @extend h3;
-      color: $black;
-      @media only screen and (min-width: $medium-query) {
-        font-size: $third-font-size;
-      }
-    }
-    p {
-      color: $black;
-      font-weight: 400;
-    }
-    a {
-      color: $black;
-      @include transition(.32s);
-      @include transition-timing-function(ease-in-out);
-      &:hover {
-        color: $gold;
-      }
-      &:active,
-      &:focus {
-        color: $gold;
-        }
-      }
-    }
-}
-
-/////////////////////
-// #contact
-////////////////////
-
-#contact {
-  a {
-    color: $black;
-  }
-  .social-media {
-    li {
-      display: inline-block;
-      margin: 0 3%;
-    }
-    a {
-      color: $black;
-      text-transform: none;
-      img {
-        height: 20px;
-        max-width: 100%;
-        width: 20px;
-      }
-    }
-  }
-}
-
-
-
-///////////////////
-// #about
-//////////////////
-
-#about {
-  .about {
-    h2 {
-      padding-top: 0;
-    }
-    a {
-      font-size: $primary-font-size;
-      font-weight: 400;
-      margin-bottom: 0;
-      text-transform: none;
-    }
-  }
-}
-
-///////////////////
-//.main-footer
-//////////////////
-.main-footer {
-  .up-arrow {
-    color: $black;
-    display: inline-block;
-    font-size: $third-font-size;
-    padding: $padding * 4;
-    @include transition(.32s);
-      &:hover,
-      &:visited,
-      &:focus {
-        color: $gold;
-    }
-    &:hover {
-      cursor: pointer;
-    }
-  }
-}
-
 
 
 

@@ -1,0 +1,61 @@
+
+
+//////////////////////////////////////
+// .web-project + .design-project
+/////////////////////////////////////
+
+.web-work,
+.design-work {
+    background: $white;
+    padding: 56px 0 102px;
+  .column {
+    float: none;
+    margin: 0 auto;
+  }
+  .project {
+    background: #fff;
+    border-bottom: 8px solid $gold;
+    margin-bottom: 84px;
+    padding: 36px 0;
+    position: relative;
+    top: -8px;
+  }
+  h2 {
+    font-size: $third-font-size;
+    font-family: $primary-font;
+    font-weight: 400;
+    @media screen and (min-width: 750px) {
+      font-size: $secondary-font-size;
+    }
+  }
+  p {
+    font-size: 1em;
+    font-weight: 300;
+    line-height: 1.5;
+    margin: 0 auto;
+    padding-bottom: 12px;
+    width: 75%;
+    @media screen and (min-width: 750px) {
+      font-size: $fourth-font-size;
+    }
+  }
+  a {
+    color: $black;
+    @include transition(.32s);
+    @include transition-timing-function(ease-in-out);
+    &:hover,
+    &:active,
+    &:focus {
+      color: $gold;
+    }
+  }
+}
+
+.web-project,
+.design-project {
+  .preview-photo {
+    box-shadow: 0 -1px 4px lighten($black, 50%);
+    display: inline-block;
+  }
+}
+

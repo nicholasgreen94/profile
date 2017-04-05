@@ -1,0 +1,18 @@
+
+#main-footer {
+  .up-arrow {
+    color: $black;
+    display: inline-block;
+    font-size: $third-font-size;
+    padding: $padding * 4;
+    @include transition(.32s);
+      &:hover,
+      &:visited,
+      &:focus {
+        color: $gold;
+    }
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}

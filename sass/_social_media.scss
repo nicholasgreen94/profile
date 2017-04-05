@@ -1,0 +1,32 @@
+#social-media {
+  .column {
+    margin: 0 auto 32px;;
+    float: none;
+  }
+  h3 {
+    color: $black;
+    font-size: $fourth-font-size;
+    font-family: $primary-font;
+    font-weight: 400;
+    @media screen and (min-width: 750px) {
+      font-size: $third-font-size;
+    }
+  }
+  @media only screen and (min-width: $medium-query) {
+    padding-top: 3em;
+  }
+  li {
+    display: inline-block;
+    margin: 0 3%;
+  }
+  a {
+    color: $black;
+    font-size: 1.2em;
+    text-transform: none;
+    img {
+      height: 20px;
+      max-width: 100%;
+      width: 20px;
+    }
+  }
+}

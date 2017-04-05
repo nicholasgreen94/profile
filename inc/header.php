@@ -48,8 +48,8 @@
               <li class="first-nav-item"><a class="first-nav-item" href="index.php">Home</a></li>
               <li><a href="web.php">Web</a></li>
               <li><a href="design.php">Design</a></li>
-              <li><a href="#contact">Contact</a></li>
               <li><a href="about.php">About</a></li>
+              <li><a href="contact.php">Contact</a></li>
             </ul>
           </nav>
         </header>

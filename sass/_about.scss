@@ -1,0 +1,68 @@
+//////////////////////
+// .about - About Page
+/////////////////////
+
+#about {
+}
+
+#about-text {
+  background: $white;
+  padding: 56px 0 102px;
+  .about-information {
+  }// .about-information
+  .column {
+    float: none;
+    margin: 0 auto;
+    width: 55%;
+  }
+  p {
+    font-size: $fourth-font-size;
+    font-weight: 300;
+    line-height: 1.5;
+    margin-bottom: 18px;
+  }
+  .about-images {
+    padding-top: 56px;
+    .column {
+      width: 48%;
+    }
+  }
+}// #about-text
+
+.backpack-picture { 
+  width: 100%;
+  @media only screen and (min-width: $medium-query) {
+    margin-top: 8em;
+  }
+}// .backpack-picture
+
+.end {
+    @media only screen and (min-width: $medium-query) {
+      margin: 2em 0;
+      .end-text {
+        margin-top: 6em;
+      }
+      .gold-bar {
+        @include rotate(112deg);
+        position: relative;
+        top: 0;
+        right: 3em;
+        &:last-of-type {
+          @include rotate(56deg);
+          position: relative;
+          top: 0;
+          right: 8em;
+        }
+    }
+  }
+  @media only screen and (min-width: $large-query) {
+    .gold-bar {
+      &:last-of-type {
+          right: 12em;
+        }
+      }
+    }
+    .end-text {
+      margin-top: 2em;
+    }
+}

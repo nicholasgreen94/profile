@@ -1,27 +1,55 @@
 
-#services {
-  position: relative;
-  top: -132px;  
-  .preview-photo {
-    float: right;
-    margin-right: 4em;
+///////////////////
+//  .hero
+//////////////////
+.hero {
+  background: #fff;
+  color: $black;
+  height: 374px;
+  padding-top: 2.54em;
+  text-align: left;
+  @media only screen and (min-width: $medium-query) {
+    height: 375px;
+    padding-top: 6.24em;
   }
-  #statement {
-    font-size: 3.14em; // Cause you know, pi
-    padding-top: 2em;
-    letter-spacing: 1px;
-    line-height: 1.2;
-    text-align: center;
-  }// #statement
-}
+  h1 {
+    font-family: $primary-font;
+    font-weight: 500;
+    padding-top: .5em;
+    @include adjust-font-size-to($secondary-font-size); // 3.375 * 16px = 54px
+    @media only screen and (min-width: $medium-query) {
+      @include adjust-font-size-to($primary-heading); // 4.625em * 16px = 74px
+    }
+  }
+  span {
+    display: inline-block;
+    font-family: $primary-font;
+    font-size: $primary-font-size;
+    font-weight: 100;
+    @media only screen and (min-width: $medium-query) {
+    font-size: 1.87em;
+      line-height: 1;
+      width: 80%;
+    }
+  }
+}// .hero
 
   #main-about {
+    background: $white;
     position: relative;
-    left: 10%;
+    padding: 56px 0 102px;
     .column {
+      float: none;
       margin: 0 auto;
+      width: 55%;
     } // .columns
     .my-about {
+      p {
+        font-size: $fourth-font-size;
+        font-weight: 300;
+        line-height: 1.5;
+        margin-bottom: 18px;
+      }
       a {
         font-family: $primary-font;
         font-weight: 700;
@@ -30,28 +58,73 @@
           color: $gold;
         }
       }
+      .vnstyle {
+        font-size: $primary-font-size;
+        font-weight: 700;
+        text-transform: none;
+        &:hover {
+          @include scale(1);
+          color: $gold;
+        }
+      }
       .read-more {
         display: inline-block;
         font-size: 1.5em;
-        margin-top: 1em;
+        font-weight: 500;
+        text-align: center;
       }// .read-more
     }// .my-about
-    .about-image-overlay {
-      background: $gold;
-      opacity: .5;
-      height: 235px;
-      width: 235px;  
-      z-index: 20;
-      position: relative;
-      top: -335px;
-      left: 185px;
-    }
-    .about-image {
-      height: 35%;
-      opacity: 1;
-      width: 35%;
-      position: relative;
-      top: -487px;
-      left: 235px;
-    }
   } // #main-about
+  
+  #main-photo {
+    background: $white;
+    padding-bottom: 56px;
+    text-align: center;
+    position: relative;
+    img {
+      margin: 0 auto;
+      width: 80%;
+    }
+  }// #main-photo
+  
+  
+  
+#main-work {
+  background: #fff;  
+  padding-top: 85px;
+  .columns {
+    padding: 0;
+  }
+  h2 {
+    font-family: $primary-font;
+    font-size: $third-font-size;
+    font-weight: 500;
+    @media only screen and (min-width: $medium-query) {
+      font-size: $secondary-font-size;
+    }
+  }
+}// #main-work
+
+
+#main-work {
+  margin-bottom: 56px;
+  .web,
+  .design {
+    padding: $padding * 32 0 $padding * 8;
+    @media only screen and (min-width: $medium-query) {
+      padding: $padding * 64 0 $padding * 46;
+    }
+    @media only screen and (min-width: $large-query) {
+      padding: $padding * 84 0 $padding * 56;
+    }
+  }
+  .web {
+    @include background($black-overlay, image-url("workspace.jpg"), $black);
+    @include background-basics; 
+    border-bottom: 2px solid $white;
+  }
+  .design {
+    @include background($gold-overlay, image-url("macbook.jpg"), $black);
+    @include background-basics;
+  }
+}
